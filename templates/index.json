@@ -266,44 +266,44 @@
             "image": "shopify:\/\/shop_images\/Rectangle_34.png"
           }
         },
-        "ce5a2dec-0630-4dfc-b335-ca6461bfd06a": {
-          "type": "image",
+        "6f5c9c0d-4555-4f48-8c25-1e866f0a44c3": {
+          "type": "collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_35.png"
+            "collection": "frontpage"
           }
         },
-        "15cd4396-c9fd-46d5-bb9f-9f6fe71acb3d": {
-          "type": "image",
+        "ce88732e-5432-414a-beef-efdf40669b02": {
+          "type": "collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_36.png"
+            "collection": "frontpage"
           }
         },
-        "209f4f42-62e3-4649-ac24-a11f32bd1f56": {
+        "3350fb8a-6c8c-4233-aaa2-4b54129820ff": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Rectangle_37.png"
           }
         },
-        "94dd2de6-206b-45d1-870d-ae48c13ced4e": {
-          "type": "image",
+        "74e411ed-7336-4dc2-9679-97309ebc8768": {
+          "type": "collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_38.png"
+            "collection": "frontpage"
           }
         },
-        "a33f6adc-e757-43d0-9ff1-444195bb668e": {
-          "type": "image",
+        "5dd31438-cb5c-48ed-a98d-47a13d7c7f9b": {
+          "type": "collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_39.png"
+            "collection": "frontpage"
           }
         }
       },
       "block_order": [
         "template--18049191739702__cf791a09-c63e-4b14-824b-42caf9f8090c-1676641048f4ab1685-0",
-        "ce5a2dec-0630-4dfc-b335-ca6461bfd06a",
-        "15cd4396-c9fd-46d5-bb9f-9f6fe71acb3d",
-        "209f4f42-62e3-4649-ac24-a11f32bd1f56",
-        "94dd2de6-206b-45d1-870d-ae48c13ced4e",
-        "a33f6adc-e757-43d0-9ff1-444195bb668e"
+        "6f5c9c0d-4555-4f48-8c25-1e866f0a44c3",
+        "ce88732e-5432-414a-beef-efdf40669b02",
+        "3350fb8a-6c8c-4233-aaa2-4b54129820ff",
+        "74e411ed-7336-4dc2-9679-97309ebc8768",
+        "5dd31438-cb5c-48ed-a98d-47a13d7c7f9b"
       ],
       "settings": {
         "heading": "Multimedia collage",
