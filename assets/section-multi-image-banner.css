@@ -6,3 +6,7 @@
 .multi-banner--image .banner__box {
   background: transparent;
 }
+
+.multi-banner--image .banner__content.banner__content--middle-center {
+  justify-content: flex-start;
+}
