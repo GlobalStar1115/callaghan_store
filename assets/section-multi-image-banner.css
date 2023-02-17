@@ -14,3 +14,7 @@
 .multi-banner--image .banner__box-right {
   margin-left: 270px;
 }
+
+.multi-banner--image .banner__media-half {
+  margin: 14px 0 14px 14px;
+}
