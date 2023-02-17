@@ -18,7 +18,3 @@
 .multi-banner--image .banner__media-half img {
   padding: 14px;
 }
-
-.multi-banner--image .banner__media-half img:first-child {
-  padding-right: 0px;
-}
