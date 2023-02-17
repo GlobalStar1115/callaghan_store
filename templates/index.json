@@ -48,6 +48,48 @@
         "show_text_below": true
       }
     },
+    "70177900-0768-4d16-99da-dd995f83b233": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18049191739702__70177900-0768-4d16-99da-dd995f83b233-1676623373e3266eac-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>LOS MÁS VENDIDOS<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18049191739702__70177900-0768-4d16-99da-dd995f83b233-1676623373e3266eac-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet consectetur.<br\/>Ut nunc odio eget sit gravida. Vel faucibus neque tortor donec bibendum adipiscing.<\/p>"
+          }
+        },
+        "template--18049191739702__70177900-0768-4d16-99da-dd995f83b233-1676623373e3266eac-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "HOMBRE",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "MUJER",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "template--18049191739702__70177900-0768-4d16-99da-dd995f83b233-1676623373e3266eac-0",
+        "template--18049191739702__70177900-0768-4d16-99da-dd995f83b233-1676623373e3266eac-1",
+        "template--18049191739702__70177900-0768-4d16-99da-dd995f83b233-1676623373e3266eac-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -78,6 +120,7 @@
   },
   "order": [
     "2547dc6e-ddd1-4146-8d70-829af3667d98",
+    "70177900-0768-4d16-99da-dd995f83b233",
     "featured_collection"
   ]
 }
