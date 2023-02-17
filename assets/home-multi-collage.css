@@ -1,9 +1,0 @@
-.home-collage-wrapper {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-
-.home-collage-content {
-  max-width: 50%;
-}
