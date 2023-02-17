@@ -80,6 +80,11 @@
     grid-column-start: 4;
   }
 
+  .collage__item--left:nth-child(5n),
+  .collage__item--left:nth-child(6n) {
+    grid-column-start: 6;
+  }
+
   .collage__item--left:nth-child(3n - 1):last-child {
     grid-row: span 2;
   }
