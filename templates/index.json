@@ -256,6 +256,44 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "cf791a09-c63e-4b14-824b-42caf9f8090c": {
+      "type": "home-multi-collage",
+      "blocks": {
+        "template--18049191739702__cf791a09-c63e-4b14-824b-42caf9f8090c-1676641048f4ab1685-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_34.png"
+          }
+        },
+        "ce5a2dec-0630-4dfc-b335-ca6461bfd06a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_35.png"
+          }
+        },
+        "15cd4396-c9fd-46d5-bb9f-9f6fe71acb3d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_36.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--18049191739702__cf791a09-c63e-4b14-824b-42caf9f8090c-1676641048f4ab1685-0",
+        "ce5a2dec-0630-4dfc-b335-ca6461bfd06a",
+        "15cd4396-c9fd-46d5-bb9f-9f6fe71acb3d"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -265,6 +303,7 @@
     "18e20c3f-353a-4a5e-acee-0d21e0ff4f87",
     "25d9fac6-81ef-4726-b90c-b3e42c34e59c",
     "7f70027e-44eb-45cb-8577-ef2b7dbc93eb",
-    "5822e90f-ac61-4b46-98e3-bac62bc0fe51"
+    "5822e90f-ac61-4b46-98e3-bac62bc0fe51",
+    "cf791a09-c63e-4b14-824b-42caf9f8090c"
   ]
 }
