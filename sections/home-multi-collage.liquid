@@ -23,7 +23,7 @@
   <div class="page-width{% if section.settings.heading == blank %} no-heading{% endif %} section-{{ section.id }}-padding">
     <h2 class="collage-wrapper-title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
     <div class="home-collage-wrapper">
-      <div class="collage{% if section.settings.mobile_layout == 'collage' %} collage--mobile{% endif %}">
+      <div class="home-collage-content collage{% if section.settings.mobile_layout == 'collage' %} collage--mobile{% endif %}">
       {%- for block in section.blocks -%}
         <div
           class="collage__item collage__item--{{ block.type }} collage__item--{{ section.settings.desktop_layout }}"
@@ -196,7 +196,7 @@
         </div>
       {%- endfor -%}
     </div>
-      <div class="collage{% if section.settings.mobile_layout == 'collage' %} collage--mobile{% endif %}">
+      <div class="home-collage-content collage{% if section.settings.mobile_layout == 'collage' %} collage--mobile{% endif %}">
       {%- for block in section.blocks -%}
         <div
           class="collage__item collage__item--{{ block.type }} collage__item--{{ section.settings.desktop_layout }}"
