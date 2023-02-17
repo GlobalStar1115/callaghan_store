@@ -6,24 +6,24 @@
         "template--18049191739702__2547dc6e-ddd1-4146-8d70-829af3667d98-167662274854e840ea-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "NUEVA COLECCIÓN",
             "heading_size": "h1"
           }
         },
         "template--18049191739702__2547dc6e-ddd1-4146-8d70-829af3667d98-167662274854e840ea-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Primavera - Verano 2023",
             "text_style": "body"
           }
         },
         "template--18049191739702__2547dc6e-ddd1-4146-8d70-829af3667d98-167662274854e840ea-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "COMPRAR MUJER",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "COMPRAR HOMBRE",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
