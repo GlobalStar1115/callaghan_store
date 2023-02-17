@@ -116,11 +116,73 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "18e20c3f-353a-4a5e-acee-0d21e0ff4f87": {
+      "type": "rich-text-home2",
+      "blocks": {
+        "template--18049191739702__18e20c3f-353a-4a5e-acee-0d21e0ff4f87-1676624394862a7dd2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Sobre Callaghan<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18049191739702__18e20c3f-353a-4a5e-acee-0d21e0ff4f87-1676624394862a7dd2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet consectetur.<br\/>Ut nunc odio eget sit gravida. Vel faucibus neque tortor donec bibendum adipiscing.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18049191739702__18e20c3f-353a-4a5e-acee-0d21e0ff4f87-1676624394862a7dd2-0",
+        "template--18049191739702__18e20c3f-353a-4a5e-acee-0d21e0ff4f87-1676624394862a7dd2-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "25d9fac6-81ef-4726-b90c-b3e42c34e59c": {
+      "type": "rich-text-home3",
+      "blocks": {
+        "template--18049191739702__25d9fac6-81ef-4726-b90c-b3e42c34e59c-1676624434cd1e951f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>#callahanshoes<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18049191739702__25d9fac6-81ef-4726-b90c-b3e42c34e59c-1676624434cd1e951f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Estamos deseando conocer tu experiencia Callaghan.<br\/>Comparte tu look con @callaghan_shoes y #callaghanshoes<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18049191739702__25d9fac6-81ef-4726-b90c-b3e42c34e59c-1676624434cd1e951f-0",
+        "template--18049191739702__25d9fac6-81ef-4726-b90c-b3e42c34e59c-1676624434cd1e951f-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "2547dc6e-ddd1-4146-8d70-829af3667d98",
     "fb404cbd-54c3-4a28-be8a-77aba21fff37",
-    "featured_collection"
+    "featured_collection",
+    "18e20c3f-353a-4a5e-acee-0d21e0ff4f87",
+    "25d9fac6-81ef-4726-b90c-b3e42c34e59c"
   ]
 }
