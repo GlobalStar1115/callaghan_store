@@ -67,9 +67,9 @@
     grid-row: span 2;
   }
 
-  .collage__item--left:nth-child(3n - 2):last-child {
+/*   .collage__item--left:nth-child(3n - 2):last-child {
     grid-column: 1 / span 3;
-  }
+  } */
 
   .collage__item--left:nth-child(3n - 1),
   .collage__item--left:nth-child(3n) {
