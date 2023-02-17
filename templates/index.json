@@ -277,12 +277,33 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Rectangle_36.png"
           }
+        },
+        "209f4f42-62e3-4649-ac24-a11f32bd1f56": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_37.png"
+          }
+        },
+        "94dd2de6-206b-45d1-870d-ae48c13ced4e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_38.png"
+          }
+        },
+        "a33f6adc-e757-43d0-9ff1-444195bb668e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_39.png"
+          }
         }
       },
       "block_order": [
         "template--18049191739702__cf791a09-c63e-4b14-824b-42caf9f8090c-1676641048f4ab1685-0",
         "ce5a2dec-0630-4dfc-b335-ca6461bfd06a",
-        "15cd4396-c9fd-46d5-bb9f-9f6fe71acb3d"
+        "15cd4396-c9fd-46d5-bb9f-9f6fe71acb3d",
+        "209f4f42-62e3-4649-ac24-a11f32bd1f56",
+        "94dd2de6-206b-45d1-870d-ae48c13ced4e",
+        "a33f6adc-e757-43d0-9ff1-444195bb668e"
       ],
       "settings": {
         "heading": "Multimedia collage",
