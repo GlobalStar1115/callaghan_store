@@ -146,11 +146,54 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "d546371f-9f74-4b2b-ba14-8544a20efa21": {
+      "type": "rich-text-product1",
+      "blocks": {
+        "template--18049191870774__d546371f-9f74-4b2b-ba14-8544a20efa21-1676887703cd432af1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Tecnología de adaptación<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18049191870774__d546371f-9f74-4b2b-ba14-8544a20efa21-1676887703cd432af1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Descubre nuestra colección de zapatos de hombre para esta temporada.<br\/>La mejor tecnología para caminar combinada con pieles y materiales de la máxima calidad.<\/p>"
+          }
+        },
+        "template--18049191870774__d546371f-9f74-4b2b-ba14-8544a20efa21-1676887703cd432af1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18049191870774__d546371f-9f74-4b2b-ba14-8544a20efa21-1676887703cd432af1-0",
+        "template--18049191870774__d546371f-9f74-4b2b-ba14-8544a20efa21-1676887703cd432af1-1",
+        "template--18049191870774__d546371f-9f74-4b2b-ba14-8544a20efa21-1676887703cd432af1-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "3850360f-8f16-4291-9388-2632dda1878b"
+    "3850360f-8f16-4291-9388-2632dda1878b",
+    "d546371f-9f74-4b2b-ba14-8544a20efa21"
   ]
 }
