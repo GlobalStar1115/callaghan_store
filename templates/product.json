@@ -203,6 +203,33 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "90d59fe0-5777-4f64-928c-bb62dd15ef50": {
+      "type": "featured-collection-product",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -210,6 +237,7 @@
     "related-products",
     "3850360f-8f16-4291-9388-2632dda1878b",
     "d546371f-9f74-4b2b-ba14-8544a20efa21",
-    "5f5e5d57-fc5b-48ee-b4be-7fefb2c5ef68"
+    "5f5e5d57-fc5b-48ee-b4be-7fefb2c5ef68",
+    "90d59fe0-5777-4f64-928c-bb62dd15ef50"
   ]
 }
