@@ -1,0 +1,8 @@
+.image-banner-product.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.image-banner-product .banner__box {
+  background: transparent;
+}
