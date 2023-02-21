@@ -38,7 +38,8 @@
         "announcement-bar-0"
       ],
       "custom_css": [
-        ".announcement-bar {border: none;}"
+        ".announcement-bar {border: none; height: 25px; display: flex; align-items: center;}",
+        "span {font-size: 12px; font-weight: 400; line-height: 18px;}"
       ],
       "settings": {
       }
