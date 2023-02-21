@@ -4,6 +4,9 @@
   "sections": {
     "header": {
       "type": "header",
+      "custom_css": [
+        ".header {padding: 0 25px 0 25px; height: 65px;}"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "logo_position": "middle-left",
