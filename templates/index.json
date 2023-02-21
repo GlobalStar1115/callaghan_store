@@ -21,10 +21,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "COMPRAR MUJER",
-            "button_link_1": "",
+            "button_link_1": "shopify:\/\/collections\/woman-shoes",
             "button_style_secondary_1": false,
             "button_label_2": "COMPRAR HOMBRE",
-            "button_link_2": "",
+            "button_link_2": "shopify:\/\/collections\/man-shoes",
             "button_style_secondary_2": false
           }
         }
