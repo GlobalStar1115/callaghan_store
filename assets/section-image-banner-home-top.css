@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-.banner--home-top .banner-box {
+.banner--home-top .banner__box {
   position: absolute;
   bottom: 0;
   padding-bottom: 100px;
