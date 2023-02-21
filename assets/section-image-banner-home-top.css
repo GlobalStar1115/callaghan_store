@@ -3,6 +3,12 @@
   margin: 0 auto;
 }
 
+.banner--home-top .banner-box {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 100px;
+}
+
 .banner--home-top .button::after {
   box-shadow: none;
 }
