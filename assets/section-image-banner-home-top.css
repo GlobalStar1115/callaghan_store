@@ -3,10 +3,6 @@
   margin: 0 auto;
 }
 
-.banner--home-top .banner__box {
-  background: transparent;
-}
-
 .banner--home-top .button::after {
   box-shadow: none;
 }
