@@ -5,6 +5,7 @@
 
 .banner--home-top .banner__box {
   background: transparent;
+  max-width: auto;
 }
 
 .banner--home-top .button::after {
