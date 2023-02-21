@@ -12,3 +12,7 @@
 .banner--home-top .button::after {
   box-shadow: none;
 }
+
+.banner--home-top .banner__buttons {
+  margin-top: 150px;
+}
