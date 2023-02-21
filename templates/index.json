@@ -36,7 +36,8 @@
       ],
       "custom_css": [
         ".banner__heading {font-size: 65px; font-weight: 500; line-height: 64px; letter-spacing: 0em; text-align: center; color: white; width: 287px;}",
-        ".banner__box {display: flex; flex-direction: column;}"
+        ".banner__box {display: flex; flex-direction: column;}",
+        ".banner__text {font-size: 21px; line-height: 31px; letter-spacing: 0em; color: white;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_4.png",
