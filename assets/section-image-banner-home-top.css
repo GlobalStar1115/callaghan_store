@@ -13,6 +13,6 @@
   box-shadow: none;
 }
 
-.banner--home-top .banner__buttons {
-  margin-top: 150px;
+.banner--home-top .banner__box .banner__buttons {
+  margin-top: 150px !important;
 }
