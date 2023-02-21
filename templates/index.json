@@ -34,6 +34,9 @@
         "template--18049191739702__2547dc6e-ddd1-4146-8d70-829af3667d98-167662274854e840ea-1",
         "template--18049191739702__2547dc6e-ddd1-4146-8d70-829af3667d98-167662274854e840ea-2"
       ],
+      "custom_css": [
+        ".banner__heading {font-size: 65px; font-weight: 500; line-height: 64px; letter-spacing: 0em; text-align: center; color: white; width: 287px;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_4.png",
         "image_2": "shopify:\/\/shop_images\/Rectangle_22.png",
