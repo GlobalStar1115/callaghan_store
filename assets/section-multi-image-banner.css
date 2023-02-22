@@ -18,3 +18,7 @@
 .multi-banner--image .banner__media-half img {
   padding: 14px;
 }
+
+.multi-banner--image .button::after {
+  box-shadow: none;
+}
