@@ -246,7 +246,8 @@
         "template--18049191739702__7f70027e-44eb-45cb-8577-ef2b7dbc93eb-1676624904f35112eb-1"
       ],
       "custom_css": [
-        ".page-width {padding: 0 1.4rem;}"
+        ".page-width {padding: 0 1.4rem;}",
+        ".image-with-text__content {background: #f5f5f5;}"
       ],
       "settings": {
         "image_height": "medium",
