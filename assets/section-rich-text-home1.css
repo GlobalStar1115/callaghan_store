@@ -2,9 +2,13 @@
   
 }
 
+.rich-text__buttons--multiple .button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .rich-text__buttons--multiple .button--primary {
   background: #5B5B5F;
-  font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+  
 }
