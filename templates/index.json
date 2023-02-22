@@ -203,7 +203,8 @@
         "template--18049191739702__18e20c3f-353a-4a5e-acee-0d21e0ff4f87-1676624394862a7dd2-1"
       ],
       "custom_css": [
-        "h2 {font-weight: 500; font-size: 1.8rem; line-height: 2.7rem; text-align: center; color: #5b5b5f;}"
+        "h2 {font-weight: bold; font-size: 1.8rem; line-height: 2.7rem; text-align: center; color: #5b5b5f;}",
+        "p {font-weight: 300; font-size: 1.8rem; line-height: 2.7rem; text-align: center; color: #5b5b5f;}"
       ],
       "settings": {
         "desktop_content_position": "center",
