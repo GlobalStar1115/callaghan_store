@@ -2,6 +2,6 @@
   
 }
 
-.rich-text__buttons--multiple .button:before, .rich-text__buttons--multiple .button:after {
+.multirow__inner .button:before, .multirow__inner .button:after {
   box-shadow: none;
 } 
