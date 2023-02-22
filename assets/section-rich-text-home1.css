@@ -5,7 +5,6 @@
 .rich-text__buttons--multiple .button {
   font-weight: 400;
   font-size: 16px;
-  background: #5B5B5F;
   border-radius: 5px;
   border: 0.5px solid #5B5B5F;
 }
@@ -16,5 +15,4 @@
 
 .rich-text__buttons--multiple .button--primary {
   background: #5B5B5F;
-  
 }
