@@ -9,6 +9,10 @@
   border: 0.5px solid #5B5B5F;
 }
 
+.rich-text__buttons--multiple .button::hover .rich-text__buttons--multiple .button:before, .rich-text__buttons--multiple .button:after {
+  box-shadow: none;
+}
+
 .rich-text__buttons--multiple .button:before, .rich-text__buttons--multiple .button:after {
   box-shadow: none;
 }
