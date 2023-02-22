@@ -247,7 +247,8 @@
       ],
       "custom_css": [
         ".page-width {padding: 0 1.4rem;}",
-        ".image-with-text__content {background: #f5f5f5;}"
+        ".image-with-text__content {background: #f5f5f5;}",
+        ".multirow__inner {row-gap: 14px;}"
       ],
       "settings": {
         "image_height": "medium",
