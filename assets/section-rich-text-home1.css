@@ -10,6 +10,10 @@
   border: 0.5px solid #5B5B5F;
 }
 
+.rich-text__buttons--multiple .button:before, .rich-text__buttons--multiple .button:after {
+  
+}
+
 .rich-text__buttons--multiple .button--primary {
   background: #5B5B5F;
   
