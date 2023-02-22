@@ -251,7 +251,7 @@
         ".multirow__inner {row-gap: 1.4rem;}",
         "h2 {font-weight: bold; font-size: 1.8rem; line-height: 2.7rem; text-align: center; color: #5b5b5f;}",
         "p {font-weight: 300; font-size: 1.6rem; line-height: 2.4rem; text-align: center; color: #5b5b5f;}",
-        ".button {color: #ffffff; font-weight: 400; font-size: 1.6rem; line-height: 2.4rem; padding: 8px 22px; background: #5B5B5F; border: 0.5px solid #5B5B5F; border-radius: 5px;}"
+        ".button {color: #ffffff; font-weight: 400; font-size: 1.6rem; line-height: 2.4rem; padding: 8px 22px; background: #5b5b5f; border: 0.5px solid #5b5b5f; border-radius: 5px;}"
       ],
       "settings": {
         "image_height": "medium",
@@ -295,8 +295,8 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 88,
+        "padding_bottom": 76
       }
     },
     "cf791a09-c63e-4b14-824b-42caf9f8090c": {
