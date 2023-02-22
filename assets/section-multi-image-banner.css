@@ -19,6 +19,10 @@
   padding: 14px 7px 14px 14px;
 }
 
+.multi-banner--image::nth-child(2) .banner__media-half img {
+  padding: 14px 14px 14px 7px;
+}
+
 .multi-banner--image .button::after {
   box-shadow: none;
 }
