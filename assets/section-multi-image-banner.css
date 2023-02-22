@@ -8,10 +8,6 @@
   padding: none;
 }
 
-.banner__box .content-container {
-  padding: 0;
-}
-
 .multi-banner--image .banner__content.banner__content--middle-center {
   justify-content: flex-start;
 }
