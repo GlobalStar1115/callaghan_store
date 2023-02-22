@@ -292,7 +292,8 @@
       ],
       "custom_css": [
         "h2 {font-weight: bold; font-size: 2.2rem; line-height: 3.3rem; text-align: center; color: #5b5b5f;}",
-        "p {font-weight: 300; font-size: 1.6rem; line-height: 2.4rem; text-align: center; color: #5b5b5f;}"
+        "p {font-weight: 300; font-size: 1.6rem; line-height: 2.4rem; text-align: center; color: #5b5b5f;}",
+        ".rich-text__blocks>*+* {margin-top: 0.9rem;}"
       ],
       "settings": {
         "desktop_content_position": "center",
