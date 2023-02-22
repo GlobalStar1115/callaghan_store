@@ -290,6 +290,10 @@
         "template--18049191739702__25d9fac6-81ef-4726-b90c-b3e42c34e59c-1676624434cd1e951f-0",
         "template--18049191739702__25d9fac6-81ef-4726-b90c-b3e42c34e59c-1676624434cd1e951f-1"
       ],
+      "custom_css": [
+        "h2 {font-weight: bold; font-size: 2.2rem; line-height: 3.3rem; text-align: center; color: #5b5b5f;}",
+        "p {font-weight: 300; font-size: 1.6rem; line-height: 2.4rem; text-align: center; color: #5b5b5f;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
