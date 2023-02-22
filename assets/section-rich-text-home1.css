@@ -11,7 +11,7 @@
 }
 
 .rich-text__buttons--multiple .button:before, .rich-text__buttons--multiple .button:after {
-  
+  box-shadow: none;
 }
 
 .rich-text__buttons--multiple .button--primary {
