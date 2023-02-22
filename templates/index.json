@@ -75,10 +75,10 @@
           "type": "button",
           "settings": {
             "button_label": "HOMBRE",
-            "button_link": "",
+            "button_link": "shopify:\/\/collections\/man-shoes",
             "button_style_secondary": false,
             "button_label_2": "MUJER",
-            "button_link_2": "",
+            "button_link_2": "shopify:\/\/collections\/woman-shoes",
             "button_style_secondary_2": true
           }
         }
@@ -87,6 +87,10 @@
         "template--18049191739702__fb404cbd-54c3-4a28-be8a-77aba21fff37-16766237691460c1bf-0",
         "template--18049191739702__fb404cbd-54c3-4a28-be8a-77aba21fff37-16766237691460c1bf-1",
         "template--18049191739702__fb404cbd-54c3-4a28-be8a-77aba21fff37-16766237691460c1bf-2"
+      ],
+      "custom_css": [
+        ".rich-text__heading {font-weight: bold; font-size: 30px; line-height: 44px; text-align: center; text-transform: uppercase; color: #5b5b5f;}",
+        ".rich-text__text {font-weight: 300; font-size: 16px; line-height: 21px; color: #5b5b5f;}"
       ],
       "settings": {
         "desktop_content_position": "center",
