@@ -257,8 +257,8 @@
         "section_color_scheme": "background-1",
         "row_color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "25d9fac6-81ef-4726-b90c-b3e42c34e59c": {
