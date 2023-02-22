@@ -3,13 +3,13 @@
 }
 
 .rich-text__buttons--multiple .button {
-  max-width: 144px;
-  min-width: 144px;
-  max-height: 36px;
-  min-height: 36px;
+  max-width: 14.4rem;
+  min-width: 14.4rem;
+  max-height: 3.6rem;
+  min-height: 3.6rem;
   font-weight: 400;
-  font-size: 16px;
-  border-radius: 5px;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
   border: 0.5px solid #5B5B5F;
 }
 
