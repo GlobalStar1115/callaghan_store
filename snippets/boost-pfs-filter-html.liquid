@@ -1,0 +1,114 @@
+{%- capture bc_layout -%}
+{%- case layout -%}
+{%- when 'productGridItemHtml' -%}
+{%- raw -%}
+<li class="grid__item">
+  <div class="card-wrapper product-card-wrapper underline-links-hover">
+    <div class="card card--{{cardProductClass}}" style="--ratio-percent: {{imageAspectRatio}}%">
+      <div class="card__inner {{cardInnerProductClass}}" style="--ratio-percent: {{imageAspectRatio}}%">
+        {{itemImages}}
+        <div class="card__content">
+          <div class="card__information">
+            <h3 class="card__heading">
+              <a href="{{itemUrl}}" class="full-unstyled-link">
+                {{itemTitle}}
+              </a>
+            </h3>
+          </div>
+          <div class="card__badge {{cardBadgePosition}}">
+            {{itemSoldOut}}
+            {{itemSale}}
+          </div>
+        </div>
+
+      </div>
+      <div class="card__content">
+        <div class="card__information">
+          <h3 class="card__heading {{cardIsHeadingFive}}">
+            <a href="{{itemUrl}}" class="full-unstyled-link">
+              {{itemTitle}}
+            </a>
+          </h3>
+          <div class="card-information">
+            {{itemVendor}}
+            <span class="caption-large light">{{itemDescription}}</span>
+            {{itemReviews}}
+            {{itemPrice}}
+          </div>
+        </div>
+        <div class="card__badge {{cardBadgePosition}}">
+          {{itemSoldOut}}
+          {{itemSale}}
+        </div>
+      </div>
+    </div>
+
+  </div>
+</li>
+{%- endraw -%}
+
+{%- when 'soldOutLabelHtml' -%}
+<span class="badge badge--bottom-left color-[[soldOutBadgeClass]]" aria-hidden="true">
+  {{ 'products.product.sold_out' | t }}
+</span>
+
+{%- when 'saleLabelHtml' -%}
+<span class="badge badge--bottom-left color-[[saleBadgeClass]]" aria-hidden="true">
+  {{ 'products.product.on_sale' | t }}
+</span>
+
+{%- when 'vendorHtml' -%}
+<span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
+<div class="caption-with-letter-spacing light">[[itemVendorLabel]]</div>
+
+{%- when 'previousActiveHtml' -%}
+<li>
+  <a href="[[itemUrl]]" class="pagination__item pagination__item--next pagination__item-arrow link motion-reduce">
+    <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+      <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+        fill="currentColor">
+      </path>
+    </svg>
+  </a>
+</li>
+
+{%- when 'nextActiveHtml' -%}
+<li>
+  <a href="[[itemUrl]]" class="pagination__item pagination__item--prev pagination__item-arrow link motion-reduce">
+    <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+      <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+        fill="currentColor">
+      </path>
+    </svg>
+  </a>
+</li>
+
+{%- when 'pageItemHtml' -%}
+<li><a href="[[itemUrl]]" class="pagination__item link">[[itemTitle]]</a></li>
+
+{%- when 'pageItemSelectedHtml' -%}
+<li><span class="pagination__item pagination__item--current" aria-current="page">[[itemTitle]]</span></li>
+
+{% when 'pageItemRemainHtml' %}
+<li><span class="pagination__item">[[itemTitle]]</span></li>
+
+{%- when 'paginateHtml' -%}
+<div class="pagination-wrapper">
+  <nav class="pagination" role="navigation" aria-label="Pagination">
+    <ul class="pagination__list list-unstyled" role="list">[[previous]][[pageItems]][[next]]</ul>
+  </nav>
+</div>
+
+{%- when 'sortingHtml' -%}
+<select name="sort_by" class="facet-filters__sort select__select caption-large" id="SortBy" aria-describedby="a11y-refresh-page-message">[[sortingItems]]</select>
+<svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
+</path></svg>
+
+{%- endcase -%}
+{%- endcapture -%}
+
+{%- assign str = '}}' -%}
+{{- bc_layout | json | replace: '[[', '{{' | replace: ']]', str -}}

@@ -1,0 +1,107 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid-boost-pfs-original",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6787e965-9abe-4c59-ba68-c608dc5e55e1": {
+      "type": "rich-text-collection1",
+      "blocks": {
+        "template--18049191543094__6787e965-9abe-4c59-ba68-c608dc5e55e1-1676889562320889a3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about yaCalzado para hombre Callaghanour brand<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--18049191543094__6787e965-9abe-4c59-ba68-c608dc5e55e1-1676889562320889a3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Descubre nuestra colección de zapatos de hombre para esta temporada.<br\/>La mejor tecnología para caminar combinada con pieles y materiales de la máxima calidad.<\/p>"
+          }
+        },
+        "6f34a771-3312-4829-9bd4-61b97a957405": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Purus risus dolor sagittis sit nulla sit metus morbi non. Ornare sit quis blandit tincidunt. Consequat urna venenatis egestas eleifend aliquam ipsum. Commodo morbi eu lacus suspendisse elementum felis. Auctor mi ornare arcu velit. Morbi mollis cursus fusce congue vitae. Quis vulputate turpis consectetur pulvinar nisl. Malesuada tristique pharetra consequat nisi. Ipsum turpis pharetra morbi arcu tincidunt libero tellus pellentesque orci. Facilisi ornare iaculis at consectetur est et a pharetra. Molestie iaculis neque nullam diam sodales purus porttitor at. Mauris platea platea a fames varius consequat sit ante. Tristique neque molestie ut euismod eget elementum ornare.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18049191543094__6787e965-9abe-4c59-ba68-c608dc5e55e1-1676889562320889a3-0",
+        "template--18049191543094__6787e965-9abe-4c59-ba68-c608dc5e55e1-1676889562320889a3-1",
+        "6f34a771-3312-4829-9bd4-61b97a957405"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "587486dd-69e0-40b0-a653-e39baec4f934": {
+      "type": "newsletter-home",
+      "blocks": {
+        "template--18049191543094__587486dd-69e0-40b0-a653-e39baec4f934-16768891453bb7c80e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "No te pierdas nada",
+            "heading_size": "h1"
+          }
+        },
+        "template--18049191543094__587486dd-69e0-40b0-a653-e39baec4f934-16768891453bb7c80e-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Suscríbete a nuestro boletín y entérate de todas nuestras ofertas y lanzamientos.<br\/>Envíanos tu correo electrónico y recibe un 10% DE DESCUENTO en tu primera compra.<\/p>"
+          }
+        },
+        "template--18049191543094__587486dd-69e0-40b0-a653-e39baec4f934-16768891453bb7c80e-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--18049191543094__587486dd-69e0-40b0-a653-e39baec4f934-16768891453bb7c80e-0",
+        "template--18049191543094__587486dd-69e0-40b0-a653-e39baec4f934-16768891453bb7c80e-1",
+        "template--18049191543094__587486dd-69e0-40b0-a653-e39baec4f934-16768891453bb7c80e-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "6787e965-9abe-4c59-ba68-c608dc5e55e1",
+    "587486dd-69e0-40b0-a653-e39baec4f934"
+  ]
+}
