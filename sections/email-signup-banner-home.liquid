@@ -80,7 +80,7 @@
                   <div class="field">
                     <input
                       id="NewsletterForm--{{ section.id }}"
-                      type="fdasfafdafdas"
+                      type="email"
                       name="contact[email]"
                       class="field__input"
                       value="{{ form.email }}"
@@ -95,7 +95,7 @@
                       {% elsif form.posted_successfully? %}
                         aria-describedby="Newsletter-success--{{ section.id }}"
                       {% endif %}
-                      placeholder="fadsfdasfdsafdasfdsafdasfdasfdsafdsafdsafdsafdas"
+                      placeholder="{{ 'newsletter.label' | t }}"
                       required
                     >
                     <label class="field__label" for="NewsletterForm--{{ section.id }}">
