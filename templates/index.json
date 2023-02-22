@@ -353,7 +353,8 @@
         "2afd91b2-3a14-4343-9666-2ee44a7f0f8e"
       ],
       "custom_css": [
-        ".page-width {padding: 0 1.4rem;}"
+        ".page-width {padding: 0 1.4rem;}",
+        ".collage.home-collage-content {grid-column-gap: 12px; grid-row-gap: 12px;}"
       ],
       "settings": {
         "heading": "",
