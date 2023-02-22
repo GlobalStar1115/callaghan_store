@@ -1,0 +1,230 @@
+/*********************** Custom CSS for Boost Filter & Search  ************************/
+{% assign breakpointMobile = '767px' %}
+{% assign breakpointTabletMin = '768px' %}
+{% assign breakpointTabletMax = '1199px' %}
+{% assign breakpointDesktop = '1200px' %}
+{% assign searchBoxMobileHeight = '64px' %}
+
+/**************************** Place your custom css below  ****************************/
+/* Layout */
+.boost-pfs-container-default-box {
+  padding: 0;
+}
+
+.boost-pfs-filter-left-col-inner {
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+}
+
+.boost-pfs-filter-left-col {
+  width: 20%;
+  float: left;
+}
+
+.boost-pfs-filter-right-col {
+  width: 80%;
+  float: right;
+  padding-left: 30px;
+}
+
+#boost-pfs-search-box-mobile:focus-visible {
+  box-shadow: none;
+}
+
+.boost-pfs-filter-mobile-toolbar-left > a {
+  display: block;
+}
+
+.boost-pfs-modal-backdrop,
+.boost-pfs-minicart-backdrop,
+.boost-pfs-minicart-wrapper.boost-pfs-minicart-active .boost-pfs-minicart-container {
+  z-index: 9999999998;
+}
+.boost-pfs-search-no-result-body .sorting-wrapper {
+  display: none;
+}
+/* Product */
+@media (min-width: {{ breakpointTabletMin }}) {
+  #main-collection-product-grid {
+    margin-top: 0;
+    position: relative;
+    z-index: 0;
+  }
+
+  .template-search .boost-pfs-filter-products {
+  	position: relative;
+    z-index: 0;
+  }
+
+  .boost-pfs-filter-top-sorting {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .boost-pfs-filter-stick>div {
+    width: 100%;
+    padding: 0;
+  }
+
+  .boost-pfs-filter-stick.boost-pfs-filter-tree-desktop-button-sticky-wrapper {
+    z-index: 3;
+  }
+
+  .boost-pfs-filter-stick.boost-pfs-filter-tree-desktop-button-sticky-wrapper .boost-pfs-search-result-toolbar {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.template-search .boost-pfs-filter-top-sorting .facet-filters__sort {
+  padding: 0 3rem 0 1rem;
+}
+
+/**** Custom Search result toolbar ****/
+.boost-pfs-search-suggestion-header-view-all a,
+.boost-pfs-search-suggestion-item a {
+  color: var(--color-base-text-opacity-85-percent);
+}
+
+.template-search .filters-toolbar-wrapper {
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+.boost-pfs-search-result-toolbar {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.boost-pfs-search-result-panel-controls {
+  display: flex;
+}
+
+.boost-pfs-search-result-panel-item > button {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+h3.boost-pfs-search-result-list-item-title {
+  margin-top: 0
+}
+
+.boost-pfs-search-result-pages.boost-pfs-container-default-box {
+  margin-top: 50px;
+}
+
+.sorting-wrapper {
+  border-bottom: 1px solid #ededed;
+}
+
+.filters-toolbar__item-child {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+}
+
+.filters-toolbar__item-child > .boost-pfs-filter-top-sorting {
+  position: relative;
+  margin-bottom: 0;
+  justify-content: flex-start;
+}
+
+.filters-toolbar__item-child .collection-filters__label {
+  margin: 0;
+  width: unset;
+  margin-right: 20px;
+}
+
+.filters-toolbar__item-child .collection-filters__sort {
+  width: 25rem;
+  max-width: 100%;
+}
+
+.filters-toolbar__item-child svg {
+  height: 0.6rem;
+  pointer-events: none;
+  position: absolute;
+  top: calc(50% - 0.35rem);
+  right: 1.5rem;
+}
+
+.template-search .boost-pfs-filter-tree {
+  width: 20%;
+  float: left;
+}
+
+.template-search .boost-pfs-filter-tree-h {
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+
+.template-search .boost-pfs-filter-right {
+  width: 80%;
+  float: right;
+  padding-left: 30px;
+}
+
+.boost-pfs-filter-message {
+  padding: 0 1.5rem;
+}
+.predictive-search {
+  display: none !important;
+}
+ul.boost-pfs-search-result-panel-controls>li button {
+  cursor: pointer;
+}
+.boost-pfs-container-default .facets__form {
+  margin-bottom: 1.5rem;
+}
+
+.boost-pfs-container-default-box:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+
+@media (max-width: {{ breakpointMobile }}) {
+  .boost-pfs-filter-right-col {
+    width: 100%;
+    padding-left: 0;
+  }
+  .facets__wrapper {
+    display: none !important;
+  }
+  .collection-filters {
+    grid-template-columns:repeat(1,auto) !important;
+  }
+  .collection-filters__item.sorting {
+    padding: initial;
+  }
+  .boost-pfs-container-default .facets__form {
+    gap: 0 2.5rem;
+  }
+  .template-search .boost-pfs-filter-tree-mobile-button > button {
+    position: relative;
+  }
+  .filters-toolbar__item-child .collection-filters__sort {
+    width: 100%;
+  }
+  .template-search .boost-pfs-filter-right {
+    width: 100%;
+    padding-left: 0;
+  }
+  .boost-pfs-filter-stick.boost-pfs-filter-tree-mobile-button {
+    z-index: 2;
+  }
+  .boost-pfs-action-list-enabled .boost-pfs-action-list-wrapper {
+    z-index: 1;
+  }
+}
+
+.boost-pfs-search-suggestion-style3-top-panel #boost-pfs-search-box-style3,
+.boost-pfs-search-suggestion-mobile-top-panel #boost-pfs-search-box-mobile {
+  outline: none;
+}
+.boost-pfs-search-result-collections .boost-pfs-search-result-list-item>a, .boost-pfs-search-result-pages .boost-pfs-search-result-list-item>a {
+  text-decoration: none;
+}
