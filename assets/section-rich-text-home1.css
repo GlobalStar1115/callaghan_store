@@ -5,7 +5,8 @@
 .rich-text__buttons--multiple .button {
   max-width: 144px;
   min-width: 144px;
-  height: 36px;
+  max-height: 36px;
+  min-height: 36px;
   font-weight: 400;
   font-size: 16px;
   border-radius: 5px;
