@@ -395,7 +395,7 @@
         "template--18049191739702__5822e90f-ac61-4b46-98e3-bac62bc0fe51-167662681315c99c36-2"
       ],
       "custom_css": [
-        "h2 {font-weight: bold; font-size: 3rem; line-height: 4.4rem; text-align: center; color: #5B5B5F;}"
+        "h2 {font-weight: bold; font-size: 3rem; line-height: 4.4rem; text-align: center; letter-spacing: 0rem; color: #5b5b5f;}"
       ],
       "settings": {
         "color_scheme": "background-1",
