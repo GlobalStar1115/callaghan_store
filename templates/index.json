@@ -352,6 +352,9 @@
         "d91d0fb7-bad9-4049-8363-1f5cedf8c25a",
         "2afd91b2-3a14-4343-9666-2ee44a7f0f8e"
       ],
+      "custom_css": [
+        ".page-width {padding: 0 1.4rem;}"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
