@@ -161,7 +161,7 @@
       "custom_css": [
         ".banner__heading {color: white;}",
         ".banner__text {color: white;}",
-        ".button {border-radius: 5px; padding: 5px 25px 5px 25px; background: white; font-size: 14px; font-weight: 500; line-height: 21px; letter-spacing: 0em; color: #5b5b5f;}"
+        ".button {border-radius: 5px; padding: 5px 25px 5px 25px; background: white; font-size: 16px; font-weight: 400; line-height: 24px; letter-spacing: 0em; color: #5b5b5f;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_10.png",
