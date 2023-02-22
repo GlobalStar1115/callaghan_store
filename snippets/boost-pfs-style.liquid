@@ -3,6 +3,7 @@
 {%- if request.page_type == 'collection' or request.page_type == 'search'  -%}
   {{ 'boost-pfs-init.css' | asset_url | stylesheet_tag }}
   <link rel="preload stylesheet" href="{{ 'boost-pfs-general.css' | asset_url }}" as="style">
+  <link rel="preload stylesheet" href="{{ 'boost-pfs-otp.css' | asset_url }}" as="style">
 {%- else -%}
   <link rel="preload stylesheet" href="{{ 'boost-pfs-instant-search.css' | asset_url }}" as="style">
 {%- endif -%}
