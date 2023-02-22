@@ -5,6 +5,7 @@
 
 .multi-banner--image .banner__box {
   background: transparent;
+  padding: none;
 }
 
 .multi-banner--image .banner__content.banner__content--middle-center {
