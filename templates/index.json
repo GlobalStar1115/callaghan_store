@@ -163,9 +163,9 @@
         "template--18049191739702__a4164f6f-a61b-4006-9267-adc657a71675-1676651419372ab193-2"
       ],
       "custom_css": [
-        ".banner__heading {color: white; font-weight: 500; font-size: 18px; line-height: 27px;}",
-        ".banner__text {color: white; font-weight: 300; font-size: 16px; line-height: 24px;}",
-        ".button {border-radius: 5px; padding: 5px 25px 5px 25px; background: white; font-size: 16px; font-weight: 400; line-height: 24px; letter-spacing: 0em; color: #5b5b5f;}"
+        ".banner__heading {color: white; font-weight: 500; font-size: 1.8rem; line-height: 2.7rem;}",
+        ".banner__text {color: white; font-weight: 300; font-size: 1.6rem; line-height: 2.4rem;}",
+        ".button {padding: 8px 22px; border-radius: 5px; background: white; font-size: 1.6rem; font-weight: 400; line-height: 2.4rem; letter-spacing: 0em; color: #5b5b5f;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_10.png",
