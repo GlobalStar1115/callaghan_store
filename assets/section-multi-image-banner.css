@@ -15,7 +15,7 @@
   margin-left: 270px;
 }
 
-.multi-banner--image .banner__media-half img:first-child {
+.multi-banner--image:first-child .banner__media-half img {
   padding: 14px 7px 14px 14px;
 }
 
