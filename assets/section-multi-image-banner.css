@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-.multi-banner--image .banner__box {
+.multi-banner--image .banner__box.content-container {
   background: transparent;
   padding: none;
 }
