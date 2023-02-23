@@ -2,7 +2,7 @@
   
 }
 
-.newsletter--home .field:before, .field:after {
+.newsletter--home .field:before, .newsletter--home .field:after {
   box-shadow: none;
   content: none;
 }
