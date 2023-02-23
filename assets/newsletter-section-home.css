@@ -35,3 +35,7 @@
 .newsletter-form__field-wrapper .radio_label {
   
 }
+
+.newsletter-form__field-wrapper .radio_label a {
+  cursor: pointer;
+}
