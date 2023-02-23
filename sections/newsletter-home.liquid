@@ -68,24 +68,6 @@
                     ENVIAR
                   </button>
                 </div>
-              <div class="newsletter-form__field-wrapper">
-                <div class="field">
-                  <input
-                    id="NewsletterFormRadio--{{ section.id }}"
-                    type="radio"
-                    name="contact[radio]"
-                    class="field__input"
-                    value="{{ form.radio }}"
-                    aria-required="true"
-                    autocorrect="off"
-                    autocapitalize="off"
-                    autocomplete="radio"
-                    required
-                  >
-                  <label class="field__label" for="NewsletterFormRadio--{{ section.id }}">
-                    He leído y acepto la <a>Política de Privacidad</a>
-                  </label>
-                </div>
                 {%- if form.errors -%}
                   <small class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">
                     {%- render 'icon-error' -%}
@@ -93,6 +75,25 @@
                     {{ form.errors.messages.email -}}
                   </small>
                 {%- endif -%}
+              </div>
+              <div class="newsletter-form__field-wrapper">
+                  <div class="field">
+                    <input
+                      id="NewsletterFormRadio--{{ section.id }}"
+                      type="radio"
+                      name="contact[radio]"
+                      class="field__input"
+                      value="{{ form.radio }}"
+                      aria-required="true"
+                      autocorrect="off"
+                      autocapitalize="off"
+                      autocomplete="radio"
+                      required
+                    >
+                    <label class="field__label" for="NewsletterFormRadio--{{ section.id }}">
+                      He leído y acepto la <a>Política de Privacidad</a>
+                    </label>
+                  </div>
               </div>
               {%- if form.posted_successfully? -%}
                 <h3
