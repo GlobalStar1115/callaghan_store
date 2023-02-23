@@ -4,18 +4,11 @@
 
 .field:before, .field:after {
   box-shadow: none;
+  content: none;
 }
 
 input[type=email] {
   background: #FFFFFF;
   border: 0.5px solid #5B5B5F;
   border-radius: 5px 0px 0px 5px;
-}
-
-.field::hover .field:before {
-  box-shadow: none;
-}
-
-.field::hover .field:after {
-  box-shadow: none;
 }
