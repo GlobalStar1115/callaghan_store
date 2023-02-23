@@ -1,5 +1,5 @@
-.newsletter--home {
-  
+.newsletter--home #contact_form {
+  max-width:54.4rem;
 }
 
 .newsletter--home .field:before, .newsletter--home .field:after {
