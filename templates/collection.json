@@ -11,7 +11,8 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
-        ".boost-pfs-filter-button.boost-pfs-filter-option-title-heading {width: 100%; padding-left: 10px; padding-right: 10px; font-weight: 400; font-size: 1.6rem; line-height: 2.4rem; color: #5b5b5f;}"
+        ".boost-pfs-filter-button.boost-pfs-filter-option-title-heading {width: 100%; padding-left: 10px; padding-right: 10px;}",
+        ".boost-pfs-filter-option-title-text {font-weight: 400; font-size: 1.6rem; line-height: 2.4rem; color: #5b5b5f;}"
       ],
       "settings": {
         "products_per_page": 16,
