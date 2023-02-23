@@ -18,8 +18,9 @@ input[type=email] {
   border: 1px solid #5B5B5F;
   border-radius: 0px 5px 5px 0px;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
   text-align: center;
   color: #FFFFFF;
+  letter-spacing: 0rem;
 }
