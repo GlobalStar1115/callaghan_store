@@ -52,7 +52,9 @@
         "share"
       ],
       "custom_css": [
-        ".page-width {padding: 0 36px;}"
+        ".page-width {padding: 0 36px;}",
+        ".grid__item.product__media-wrapper {max-width: 899px;}",
+        ".product__info-wrapper.grid__item {max-width: calc(100% - 899px);}"
       ],
       "settings": {
         "enable_sticky_info": true,
