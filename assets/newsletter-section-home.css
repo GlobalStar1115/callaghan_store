@@ -1,4 +1,4 @@
-.newsletter--home #contact_form {
+.newsletter--home #contact_form, .newsletter--home .newsletter__wrapper .newsletter-form__field-wrapper {
   max-width:54.4rem;
 }
 
