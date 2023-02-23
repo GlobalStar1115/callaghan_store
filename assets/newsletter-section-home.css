@@ -5,3 +5,11 @@
 .field:before, .field:after {
   box-shadow: none;
 }
+
+{
+  background: #FFFFFF;
+    border: 0.5px solid #5B5B5F;
+    border-radius: 5px 0px
+px
+ 0px 5px;
+}
