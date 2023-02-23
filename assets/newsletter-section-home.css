@@ -29,13 +29,17 @@
 }
 
 .newsletter-form__field-wrapper .radio_btn {
-      width: 15px;
+    width: 15px;
     height: 15px;
     margin-right: 6px;
 }
 
 .newsletter-form__field-wrapper .radio_label {
-  
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #5B5B5F;
+  letter-spacing: 0;
 }
 
 .newsletter-form__field-wrapper .radio_label a {
