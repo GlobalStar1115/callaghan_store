@@ -11,3 +11,11 @@ input[type=email] {
   border: 0.5px solid #5B5B5F;
   border-radius: 5px 0px 0px 5px;
 }
+
+input[type=email]::hover .field:before {
+  box-shadow: none;
+}
+
+input[type=email]::hover .field:after {
+  box-shadow: none;
+}
