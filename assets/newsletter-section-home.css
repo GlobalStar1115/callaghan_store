@@ -15,6 +15,7 @@
 
 .newsletter--home .newsletter-form__button.field__button {
   background: #5B5B5F !important;
+  box-shadow: unset;
   border: 1px solid #5B5B5F;
   border-radius: 0px 5px 5px 0px;
   font-weight: 400;
