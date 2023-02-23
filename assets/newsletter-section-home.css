@@ -29,7 +29,9 @@
 }
 
 .newsletter-form__field-wrapper .radio_btn {
-  
+      width: 15px;
+    height: 15px;
+    margin-right: 6px;
 }
 
 .newsletter-form__field-wrapper .radio_label {
