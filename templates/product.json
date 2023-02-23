@@ -59,6 +59,9 @@
         "description",
         "share"
       ],
+      "custom_css": [
+        ".page-width {padding: 0 36px;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "media_size": "small",
