@@ -2994,3 +2994,8 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+
+.boost-pfs-filter-option-title-text:before {
+  content: unset;
+}
