@@ -56,7 +56,8 @@
         ".grid__item.product__media-wrapper {max-width: 899px;}",
         ".product__info-wrapper.grid__item {max-width: 469px;}",
         ".grid {column-gap: 11px; row-gap: 11px;}",
-        ".grid--2-col-tablet .grid__item {width: calc(50% - 11px);}"
+        ".grid--2-col-table.grid__item {width: calc(50% - 11px);}",
+        ".product-form__input input[type=radio]+label {background: #FFFFFF; border: 0.3px solid #5B5B5F; border-radius: 0px;}"
       ],
       "settings": {
         "enable_sticky_info": true,
