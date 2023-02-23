@@ -12,10 +12,10 @@ input[type=email] {
   border-radius: 5px 0px 0px 5px;
 }
 
-input[type=email]::hover .field:before {
+.field::hover .field:before {
   box-shadow: none;
 }
 
-input[type=email]::hover .field:after {
+.field::hover .field:after {
   box-shadow: none;
 }
