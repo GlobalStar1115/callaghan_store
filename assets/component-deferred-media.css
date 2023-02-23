@@ -87,9 +87,4 @@
   margin-left: 0.2rem;
 }
 
-@media screen and (min-width: 750px)
-.product--columns .product__media-item:not(.product__media-item--single):not(:only-child) {
-    max-width: calc(50% - 11px);
-}
-
 
