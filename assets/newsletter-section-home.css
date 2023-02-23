@@ -17,4 +17,9 @@ input[type=email] {
   background: #5B5B5F;
   border: 1px solid #5B5B5F;
   border-radius: 0px 5px 5px 0px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
 }
