@@ -2996,6 +2996,6 @@ details-disclosure > details {
 }
 
 
-.boost-pfs-filter-option-title-text:before {
+.boost-pfs-filter-tree-v .boost-pfs-filter-option-title-text:before {
   content: unset;
 }
