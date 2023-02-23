@@ -1,3 +1,7 @@
 .newsletter--home {
   
 }
+
+.field:before, .field:after {
+  box-shadow: none;
+}
