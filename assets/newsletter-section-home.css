@@ -29,9 +29,10 @@
 }
 
 .newsletter-form__field-wrapper .radio_btn {
-    width: 15px;
-    height: 15px;
-    margin-right: 6px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  margin-right: 6px;
 }
 
 .newsletter-form__field-wrapper .radio_label {
@@ -40,8 +41,10 @@
   line-height: 2.1rem;
   color: #5B5B5F;
   letter-spacing: 0;
+  cursor: pointer;
 }
 
 .newsletter-form__field-wrapper .radio_label a {
   cursor: pointer;
+  text-decoration: underline;
 }
