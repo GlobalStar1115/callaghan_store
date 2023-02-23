@@ -71,18 +71,18 @@
               <div class="newsletter-form__field-wrapper">
                 <div class="field">
                   <input
-                    id="NewsletterForm--{{ section.id }}"
-                    type="email"
-                    name="contact[email]"
+                    id="NewsletterFormRadio--{{ section.id }}"
+                    type="radio"
+                    name="contact[radio]"
                     class="field__input"
-                    value="{{ form.email }}"
+                    value="{{ form.radio }}"
                     aria-required="true"
                     autocorrect="off"
                     autocapitalize="off"
-                    autocomplete="email"
+                    autocomplete="radio"
                     required
                   >
-                  <label class="field__label" for="NewsletterForm--{{ section.id }}">
+                  <label class="field__label" for="NewsletterFormRadio--{{ section.id }}">
                     Escribe tu correo electrónico
                   </label>
                 </div>
