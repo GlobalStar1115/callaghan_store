@@ -20,26 +20,34 @@
             "menu": "main-menu"
           }
         },
-        "footer-1": {
+        "3bbfda15-a1a2-4d46-8ade-94a0e2a25710": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
+            "heading": "Colección",
+            "menu": "main-menu"
           }
         },
-        "footer-2": {
-          "type": "text",
+        "f68b75ad-346f-4e77-af61-948d480aa81e": {
+          "type": "link_list",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "Colección",
+            "menu": "main-menu"
+          }
+        },
+        "4b1ecb64-75ec-4493-b870-98201f85dafa": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Colección",
+            "menu": "main-menu"
           }
         }
       },
       "block_order": [
         "472929a4-9165-4b92-9c26-e1badb6f43f9",
         "footer-0",
-        "footer-1",
-        "footer-2"
+        "3bbfda15-a1a2-4d46-8ade-94a0e2a25710",
+        "f68b75ad-346f-4e77-af61-948d480aa81e",
+        "4b1ecb64-75ec-4493-b870-98201f85dafa"
       ],
       "settings": {
         "color_scheme": "background-1",
