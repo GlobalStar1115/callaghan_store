@@ -9,6 +9,7 @@
           "type": "logo_image",
           "settings": {
             "menu_enable": true,
+            "image": "shopify:\/\/shop_images\/11_27.png",
             "mega_link": "1",
             "link": "",
             "title": "",
