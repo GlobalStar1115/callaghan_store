@@ -202,7 +202,7 @@
 
   <div class="footer__content-bottom">
     <div class="footer__content-bottom-wrapper page-width">
-      <div class="footer__column footer__localization isolate">
+      <div class="footer__column footer__localization isolate" style="display: flex;flex-wrap: nowrap;align-items: center;margin-top: 15px;">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
           <noscript>
             {%- form 'localization', id: 'FooterCountryFormNoScript', class: 'localization-form' -%}
@@ -289,10 +289,10 @@
           </localization-form>
         {%- endif -%}
         <div class="footer__column footer__column--info">
-        {%- if section.settings.show_social and has_social_icons -%}
-            {%- render 'social-icons' -%}
-          {%- endif -%}
-      </div>
+          {%- if section.settings.show_social and has_social_icons -%}
+              {%- render 'social-icons' -%}
+            {%- endif -%}
+        </div>
       </div>
       
       <div class="footer__column footer__column--info">
