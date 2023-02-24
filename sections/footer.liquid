@@ -292,9 +292,11 @@
           </localization-form>
         {%- endif -%}
       </div>
+      <div class="footer__column footer__column--info">
         {%- if section.settings.show_social and has_social_icons -%}
             {%- render 'social-icons' -%}
           {%- endif -%}
+      </div>
       <div class="footer__column footer__column--info">
         {%- if section.settings.payment_enable -%}
           <div class="footer__payment">
