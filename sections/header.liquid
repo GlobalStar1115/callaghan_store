@@ -503,7 +503,34 @@
                               {%- endif -%}
                             </li>
                           {%- endfor -%}
-                  {{ block.settings.image | img_url: '500x500' }}
+                          {% if image_block == true %}
+                             <div class="image-section mega-list mega-list-logo">
+                                {% for block in section.blocks %}
+                                  {%- assign val = block.settings.mega_link | handleize -%}
+                                  {% if val == child_list_handle %}
+                                    {% if block.settings.menu_enable %}
+                                      {% unless block.settings.link == blank %}
+                                        <a href="{{ block.settings.link }}">
+                                        {% endunless %}
+                                        <div class="img-box">
+                                          <img src="{{ block.settings.image | img_url: '500x500' }}">
+                                          <div class="text__section">
+                                            {% unless block.settings.title == blank %}
+                                              <h3>{{ block.settings.title }}</h3>
+                                            {% endunless %}
+                                            {% unless block.settings.subtitle == blank %}
+                                              <p>{{ block.settings.subtitle }}</p>
+                                            {% endunless %}
+                                          </div>
+                                        </div>
+                                        {% unless block.settings.link == blank %}
+                                        </a>
+                                      {% endunless %}
+                                    {% endif %}
+                                  {% endif %}
+                                {% endfor %}
+                              </div>
+                            {% endif %}
                         </ul>
                       </div>
                     </details>
