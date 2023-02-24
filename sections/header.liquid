@@ -503,7 +503,6 @@
                               {%- endif -%}
                             </li>
                           {%- endfor -%}
-                          {% if image_block == true %}
                              <div class="image-section mega-list mega-list-logo">
                                 {% for block in section.blocks %}
                                   {%- assign val = block.settings.mega_link | handleize -%}
@@ -530,7 +529,6 @@
                                   {% endif %}
                                 {% endfor %}
                               </div>
-                            {% endif %}
                         </ul>
                       </div>
                     </details>
