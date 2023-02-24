@@ -70,3 +70,18 @@ function init() {
     evt.stopImmediatePropagation();
   });
 }
+function showDropdown($el) {
+  $el.addClass(config.activeClass);
+  var headerHeight = $('#shopify-section-header').outerHeight(),
+      headerNav = $el.find('.site-nav__dropdown').outerHeight();
+  $el.find('.site-nav__dropdown').css({top: +headerHeight+ 'px'});
+  cache.$activeDropdown = $el;
+}
+function hideDropdown($el) {
+  // remove aria on open dropdown
+  $el.removeClass(config.activeClass);
+  // reset active dropdown
+  cache.$activeDropdown = $(selectors.siteNavActiveDropdown);
+  $(selectors.body).off('click.siteNav');
+  $(window).off('keyup.siteNav');
+}
