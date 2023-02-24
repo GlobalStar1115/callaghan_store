@@ -53,7 +53,8 @@
         ".footer-block.grid__item {width: calc(% - var(--grid-desktop-horizontal-spacing) * 2 \/ 3);}",
         ".footer-block.grid__item:first-child {margin-right: 100px;}",
         "h2,a {font-size: 1.4rem; line-height: 2.1rem; color: #5b5b5f;}",
-        "h2 {font-weight: bold;}"
+        "h2 {font-weight: bold;}",
+        ".footer {max-width: 1400px;}"
       ],
       "settings": {
         "color_scheme": "background-1",
