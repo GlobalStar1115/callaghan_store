@@ -16,6 +16,6 @@
   height: 27px;
   margin-top: 10px;
 }
-.list-menu.list-menu--inline > li:last-child > header-menu > details {
+.list-menu.list-menu--inline li:last-child header-menu details {
   margin-top: -10px;
 }
