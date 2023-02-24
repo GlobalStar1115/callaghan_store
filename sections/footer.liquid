@@ -207,7 +207,6 @@
           <noscript>
             {%- form 'localization', id: 'FooterCountryFormNoScript', class: 'localization-form' -%}
               <div class="localization-form__select">
-                <h2 class="visually-hidden" id="FooterCountryLabelNoScript">{{ 'localization.country_label' | t }}</h2>
                 <select class="localization-selector link" name="country_code" aria-labelledby="FooterCountryLabelNoScript">
                   {%- for country in localization.available_countries -%}
                     <option value="{{ country.iso_code }}" {%- if country.iso_code == localization.country.iso_code %} selected{% endif %}>
