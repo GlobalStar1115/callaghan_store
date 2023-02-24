@@ -30,8 +30,8 @@
       "settings": {
         "color_scheme": "background-1",
         "logo_position": "middle-left",
-        "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
+        "menu": "test",
+        "menu_type_desktop": "mega",
         "sticky_header_type": "none",
         "show_line_separator": true,
         "mobile_logo_position": "center",
