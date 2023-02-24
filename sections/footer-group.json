@@ -50,7 +50,7 @@
         "4b1ecb64-75ec-4493-b870-98201f85dafa"
       ],
       "custom_css": [
-        ".footer-block.grid__item {width: calc(% - var(--grid-desktop-horizontal-spacing) * 2 \/ 3); color: #5b5b5f !important;}",
+        ".footer-block.grid__item {width: calc(% - var(--grid-desktop-horizontal-spacing) * 2 \/ 3);}",
         ".footer-block.grid__item:first-child {margin-right: 100px;}"
       ],
       "settings": {
