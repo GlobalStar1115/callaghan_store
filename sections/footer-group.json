@@ -16,8 +16,8 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "Colección",
+            "menu": "main-menu"
           }
         },
         "footer-1": {
