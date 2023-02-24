@@ -4,6 +4,21 @@
   "sections": {
     "header": {
       "type": "header",
+      "blocks": {
+        "38300313-e979-490a-b2e1-4286a6b39317": {
+          "type": "logo_image",
+          "settings": {
+            "menu_enable": true,
+            "mega_link": "1",
+            "link": "",
+            "title": "",
+            "subtitle": ""
+          }
+        }
+      },
+      "block_order": [
+        "38300313-e979-490a-b2e1-4286a6b39317"
+      ],
       "custom_css": [
         ".header {padding: 0 25px 0 25px; height: 65px;}",
         ".header-wrapper {border: none;}",
