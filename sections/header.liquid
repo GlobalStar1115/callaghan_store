@@ -503,19 +503,7 @@
                               {%- endif -%}
                             </li>
                           {%- endfor -%}
-                             <div class="image-section mega-list mega-list-logo">
-                              <div class="img-box">
-                                <img src="{{ block.settings.image | img_url: '500x500' }}">
-                                <div class="text__section">
-                                  {% unless block.settings.title == blank %}
-                                    <h3>{{ block.settings.title }}</h3>
-                                  {% endunless %}
-                                  {% unless block.settings.subtitle == blank %}
-                                    <p>{{ block.settings.subtitle }}</p>
-                                  {% endunless %}
-                                </div>
-                              </div>
-                            </div>
+                          {{ block | json }}
                         </ul>
                       </div>
                     </details>
