@@ -10,7 +10,7 @@
           "settings": {
             "menu_enable": true,
             "image": "shopify:\/\/shop_images\/11_27.png",
-            "mega_link": "1",
+            "mega_link": "2",
             "link": "",
             "title": "",
             "subtitle": ""
@@ -21,7 +21,7 @@
         "38300313-e979-490a-b2e1-4286a6b39317"
       ],
       "custom_css": [
-        ".header {}"
+
       ],
       "settings": {
         "color_scheme": "background-1",
