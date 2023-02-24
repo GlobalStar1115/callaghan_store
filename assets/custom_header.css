@@ -11,7 +11,7 @@
   line-height: 2.4rem;
   color: #5b5b5f;
 }
-.list-menu.list-menu--inline > li:last-child {
+.list-menu.list-menu--inline li:last-child {
   border-left: 2px solid #b92c32;
   height: 27px;
   margin-top: 10px;
