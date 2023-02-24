@@ -26,7 +26,7 @@
       "settings": {
         "color_scheme": "background-1",
         "logo_position": "middle-left",
-        "menu": "test",
+        "menu": "main-menu",
         "menu_type_desktop": "mega",
         "sticky_header_type": "none",
         "show_line_separator": true,
