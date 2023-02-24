@@ -45,3 +45,28 @@ document.addEventListener('shopify:section:deselect', () => hideProductModal());
 document.addEventListener('shopify:inspector:activate', () => hideProductModal());
 
 document.addEventListener('shopify:inspector:deactivate', () => hideProductModal());
+
+
+//
+function init() {
+  cacheSelectors();
+  $(selectors.siteNavHasDropdown).on('mouseenter', function() {
+    	var $el = $(this);
+  	showDropdown($el);
+  });
+  $('.site-nav__dropdown').on('mouseenter', function() {
+  	$(this).show();
+    	$(this).parent().addClass(config.activeClass);
+  });
+  $(selectors.siteNavHasDropdown).on('mouseleave', function() {
+  	hideDropdown(cache.$activeDropdown);
+  });
+  $('.site-nav__dropdown').on('mouseleave', function() {
+    	hideDropdown(cache.$activeDropdown);
+    	$(this).hide();
+  });
+  cache.$subMenuLinks.on('click.siteNav', function(evt) {
+    // Prevent click on body from firing instead of link
+    evt.stopImmediatePropagation();
+  });
+}
