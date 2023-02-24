@@ -15,10 +15,22 @@
             "title": "catalog",
             "subtitle": ""
           }
+        },
+        "cc95f0e6-16a6-4c8b-a44d-c20081e10186": {
+          "type": "logo_image",
+          "settings": {
+            "menu_enable": true,
+            "image": "shopify:\/\/shop_images\/11_13.png",
+            "mega_link": "1",
+            "link": "",
+            "title": "",
+            "subtitle": ""
+          }
         }
       },
       "block_order": [
-        "38300313-e979-490a-b2e1-4286a6b39317"
+        "38300313-e979-490a-b2e1-4286a6b39317",
+        "cc95f0e6-16a6-4c8b-a44d-c20081e10186"
       ],
       "custom_css": [
 
