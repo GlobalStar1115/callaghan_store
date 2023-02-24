@@ -49,6 +49,10 @@
         "f68b75ad-346f-4e77-af61-948d480aa81e",
         "4b1ecb64-75ec-4493-b870-98201f85dafa"
       ],
+      "custom_css": [
+        ".footer-block.grid__item {width: calc(% - var(--grid-desktop-horizontal-spacing) * 2 \/ 3);}",
+        ".footer-block.grid__item:first-child {margin-right:100px;}"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": false,
