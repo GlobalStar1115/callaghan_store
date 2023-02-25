@@ -5,7 +5,7 @@
       "custom_css": [
         "h1 {font-weight: bold; font-size: 3rem; line-height: 4.4rem; text-align: center; color: #5b5b5f;}",
         "input {border: 0.5px solid #5b5b5f; border-radius: 4px; font-size: 1.4rem; line-height: 2.1rem; color: #5b5b5f; opacity: 0.75; max-width: 443px;}",
-        "button {max-width: 443px; width: 443px; background: #5B5B5F; border: 0.5px solid #5B5B5F; border-radius: 4px}"
+        "button {max-width: 443px; width: 443px; background: #5b5b5f; border: 0.5px solid #5b5b5f; border-radius: 4px; font-size: 1.8rem; line-height: 2.7rem; color: #ffffff;}"
       ],
       "settings": {
         "padding_top": 100,
