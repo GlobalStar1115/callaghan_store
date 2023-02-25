@@ -1,1 +1,17 @@
-{"sections":{"main":{"type":"main-login","settings":{"padding_top":36,"padding_bottom":36}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-login",
+      "custom_css": [
+        "h1 {font-weight: bold; font-size: 30px; line-height: 44px; text-align: center; color: #5b5b5f;}"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
