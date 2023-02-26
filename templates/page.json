@@ -41,7 +41,7 @@
         "template--18049191969078__78c19fe7-4c34-42a2-81d8-1bbdca8a52b0-16774196649b8f19b5-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Lorem ipsum dolor sit amet consectetur?",
+            "heading": "¿Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur?",
             "icon": "none",
             "row_content": "<p>Lorem ipsum dolor sit amet consectetur. Habitasse eu libero egestas eget. Elementum augue a pulvinar varius congue erat felis. Accumsan tellus fermentum suspendisse quis tincidunt. Purus quis nunc purus egestas velit in ante. Urna platea feugiat amet pulvinar gravida urna molestie neque. Nisl a mauris sed in risus ornare eros imperdiet. Lectus ut proin risus mauris. Vitae cursus morbi morbi tristique leo pulvinar amet.<\/p>",
             "page": ""
@@ -54,6 +54,9 @@
         "template--18049191969078__78c19fe7-4c34-42a2-81d8-1bbdca8a52b0-16774196649b8f19b5-2",
         "template--18049191969078__78c19fe7-4c34-42a2-81d8-1bbdca8a52b0-16774196649b8f19b5-3"
       ],
+      "custom_css": [
+        "h2 {font-weight: 500; font-size: 3rem; line-height: 4.4rem; color: #5b5b5f;}"
+      ],
       "settings": {
         "caption": "",
         "heading": "PREGUNTAS FRECUENTES",
@@ -65,8 +68,8 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
