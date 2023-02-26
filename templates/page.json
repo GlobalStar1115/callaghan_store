@@ -55,7 +55,7 @@
         "template--18049191969078__78c19fe7-4c34-42a2-81d8-1bbdca8a52b0-16774196649b8f19b5-3"
       ],
       "custom_css": [
-        "h2 {font-weight: 500; font-size: 3rem; line-height: 4.4rem; color: #5b5b5f;}"
+        "h2 {font-weight: 500; font-size: 3rem; line-height: 4.4rem; color: #5b5b5f; margin: 0;}"
       ],
       "settings": {
         "caption": "",
