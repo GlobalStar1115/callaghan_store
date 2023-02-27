@@ -159,10 +159,16 @@
                             <img
                               srcset= "{{ 'mail.png' | asset_url}}"
                               src="{{ 'mail.png' | asset_url }}"
-                              width="20"
-                              height="20">contacto@callaghan.es
+                              width="15"
+                              height="15">contacto@callaghan.es
                           </div>
-                          <div class='footer_phone'><img class='footer-icon' scr="{{ 'phone.png' | asset_url }}">650 90 14 47</div>
+                          <div class='footer_phone'>
+                            <img
+                              srcset= "{{ 'phone.png' | asset_url}}"
+                              src="{{ 'phone.png' | asset_url }}"
+                              width="15"
+                              height="15">650 90 14 47
+                          </div>
                         </div>
                       {%- else -%}
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
