@@ -22,6 +22,12 @@
 
   assign product_form_id = 'product-form-' | append: section.id
 -%}
+{% style %}
+  .label_with_image {
+    padding: 0 20px;
+    border: none;
+  }
+{% endstyle %}
 
 {%- for value in option.values -%}
   {%- liquid
@@ -70,7 +76,7 @@
         
       {% endfor %}
       {% if flag == 1 %}
-        <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+        <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" class='label_with_image'>
           <img
             srcset= "{{ image_url | image_url }}"
             src="{{ image_url | image_url}}"
