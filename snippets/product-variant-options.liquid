@@ -64,7 +64,7 @@
       {%- for variant in product.variants -%}
         {% if variant.title contains value %}
           {% assign flag = 1 %}
-          <script>console.log("{{ variant.image }}")</script>
+          <script>console.log("{{ variant.image | image_url }}")</script>
           {% break %}
         {% endif %}
         
