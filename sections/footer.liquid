@@ -131,7 +131,7 @@
                     <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
                       {%- if block.settings.image != blank -%}
                         {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
-                        <div class="footer-block__image-wrapper global-media-settings"  style="max-width: min(100%, {{ block.settings.image_width }}px);">
+                        <div class="footer-block__image-wrapper global-media-settings"  style="max-width: min(100%, {{ block.settings.image_width }}px);background: transparent;border: none;text-align: left;">
                           <img
                             srcset= "{{ block.settings.image | image_url: width: block.settings.image_width }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
                             src="{{ block.settings.image | image_url: width: 760 }}"
@@ -140,7 +140,7 @@
                             width="{{ block.settings.image.width }}"
                             height="{{ block.settings.image.height }}"
                           >
-                         <p>Av. Industria, 4, 26580</p>
+                           <p>Av. Industria, 4, 26580</p>
                           <p>Arnedo, La Rioja</p>
                           <div class='footer_contact'>contacto@callaghan.es</div>
                           <div class='footer_phone'>650 90 14 47</div>
