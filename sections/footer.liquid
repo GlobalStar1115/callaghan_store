@@ -155,7 +155,15 @@
                           >
                            <p>Av. Industria, 4, 26580</p>
                           <p>Arnedo, La Rioja</p>
-                          <div class='footer_contact'><img class='footer-icon' scr="{{ 'mail.png' | asset_url }}">contacto@callaghan.es</div>
+                          <div class='footer_contact'>
+                            <img
+                              srcset= "{{ 'phone.png' | asset_url | image_url: width: 20 }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
+                              src="{{ 'phone.png' | asset_url | image_url: width: 760 }}"
+                              loading="lazy"
+                              width="{{ block.settings.image.width }}"
+                              height="{{ block.settings.image.height }}"
+                            >}}">contacto@callaghan.es
+                          </div>
                           <div class='footer_phone'><img class='footer-icon' scr="{{ 'phone.png' | asset_url }}">650 90 14 47</div>
                         </div>
                       {%- else -%}
