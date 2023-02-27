@@ -104,7 +104,7 @@
                     <div class="footer-block__brand-info">
                       {%- if settings.brand_image != blank -%}
                         {%- assign brand_image_height = settings.brand_image_width | divided_by: settings.brand_image.aspect_ratio -%}
-                        <div class="footer-block__image-wrapper global-media-settings" style="max-width: min(100%, {{ settings.brand_image_width }}px);background: transparent;border: none;text-align: left;">
+                        <div class="footer-block__image-wrapper global-media-settings" style="background: transparent;border: none;text-align: left;max-width: min(100%, {{ settings.brand_image_width }}px);">
                           {{ settings.brand_image | image_url: width: 1100 | image_tag:
                             loading: 'lazy',
                             widths: '50, 100, 150, 200, 300, 400, 550, 800, 1100',
