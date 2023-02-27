@@ -48,7 +48,7 @@
   {%- if block.settings.picker_type == 'button' -%}
     {% if option.name == 'color' %}
       <script type="application/json">
-        {{ option | json }}
+        console.log({{ option | json }})
       </script>
       <input
         type="radio"
