@@ -139,7 +139,6 @@
           {%- for option in card_product.options_with_values -%}
             {% if option.name == "Size" %}
               {%- for value in option.values -%}
-                <script>console.log("{{ option.name}}")</script>
                 {% assign json = option.values | json %}
                 <script>console.log({{ json | json }})</script>
                 <div class='product_size_bar'>
