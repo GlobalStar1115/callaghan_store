@@ -65,12 +65,11 @@
         {% if variant.title contains value %}
           {% assign flag = 1 %}
           {% assign image_url = variant.image | image_url %}
-          <script>console.log("")</script>
           {% break %}
         {% endif %}
         
       {% endfor %}
-       {{ flag }}
+       {{ image_url }}
     {% else %}
       
       <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
