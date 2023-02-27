@@ -47,7 +47,7 @@
 
   {%- if block.settings.picker_type == 'button' -%}
     {% if option.name == 'Color' %}
-        <script>console.log({{ option | json }})</script>
+        <script>console.log({{ product_variant | json }})</script>
      
     {% else %}
       <input
