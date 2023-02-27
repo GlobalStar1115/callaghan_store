@@ -134,7 +134,11 @@
             </div>
           </div>
         {%- endif -%}
-  <script>console.log({{ card_product.options_with_values | json }})</script>
+        {%- for option in card_product.options_with_values -%}
+          {%- for value in option.values -%}
+            <script>console.log({{ option.name | json }})</script>
+          {% endfor %}
+        {%- endfor -%}
         <div class="card__content">
           <div class='product_size_bar'>
             <div class='product_size'>39</div>
