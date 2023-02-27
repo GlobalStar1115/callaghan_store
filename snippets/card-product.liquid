@@ -138,12 +138,13 @@
         <div class="card__content">
           {%- for option in card_product.options_with_values -%}
             {% if option.name == "Size" %}
-              {%- for value in option.values -%}
-                {% assign json = option.values | json %}
-                <script>console.log({{ option.values | contains "39" }})</script>
                 <div class='product_size_bar'>
-                  <div class='product_size'>39</div>
-                  <div class='product_size disable'>40</div>
+                  {% if option.values | contains "39" %}
+                    <div class='product_size'>39</div>
+                  {% else %}
+                    <div class='product_size disable'>39</div>
+                  {% endif %}
+                    <div class='product_size disable'>40</div>
                   <div class='product_size active'>41</div>
                   <div class='product_size'>42</div>
                   <div class='product_size'>43</div>
@@ -151,7 +152,6 @@
                   <div class='product_size'>45</div>
                   <div class='product_size'>46</div>
                 </div>
-              {% endfor %}
             {% endif %}
           {%- endfor -%}
           
