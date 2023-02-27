@@ -55,7 +55,8 @@
         "h2,a {font-size: 1.4rem; line-height: 2.1rem; color: #5b5b5f;}",
         "h2 {font-weight: bold;}",
         ".footer {max-width: 1400px; margin: auto; background: #f5f5f5; border-top: none;}",
-        ".page-width,.footer__content-bottom-wrapper.page-width {padding-left: 0; padding-right: 0;}"
+        ".page-width,.footer__content-bottom-wrapper.page-width {padding-left: 0; padding-right: 0;}",
+        "p {margin: 0; }"
       ],
       "settings": {
         "color_scheme": "background-1",
