@@ -64,6 +64,7 @@
       {%- for variant in product.variants -%}
         {% if variant.title contains value %}
           {% assign flag = 1 %}
+          {% break %}
         {% endif %}
         
       {% endfor %}
