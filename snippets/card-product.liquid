@@ -146,7 +146,11 @@
                     <div class='product_size disable'>39</div>
                   {% endif %}
                   {% if option.values contains "40" %}
-                    <div class='product_size'>40</div>
+                    {% if active_flag == 1 %}
+                      <div class='product_size'>40</div>
+                    {% else %}
+                      <div class='product_size active'>40</div>
+                    {% endif %}
                   {% else %}
                     <div class='product_size disable'>40</div>
                   {% endif %}
