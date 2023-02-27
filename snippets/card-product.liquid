@@ -141,7 +141,7 @@
               {%- for value in option.values -%}
                 <script>console.log("{{ option.name}}")</script>
                 
-                <script>console.log("{{ option.values | json }}")</script>
+                <script>console.log({{ option.values | json }})</script>
                 <div class='product_size_bar'>
                   <div class='product_size'>39</div>
                   <div class='product_size disable'>40</div>
