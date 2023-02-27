@@ -139,7 +139,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
@@ -206,7 +206,7 @@
     "90d59fe0-5777-4f64-928c-bb62dd15ef50": {
       "type": "featured-collection-product",
       "settings": {
-        "title": "Para cualquier ocasión",
+        "title": "Te recomendamos",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
