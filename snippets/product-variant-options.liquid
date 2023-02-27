@@ -49,7 +49,7 @@
     {% if option.name == 'Color' %}
       {%- for variant in product.variants -%}
         {% if variant.title contains 'Yellow' %}
-          <script>console.log({{ variant.title }})</script>
+          <script>console.log("{{ variant.title }}")</script>
           
         {% endif %}
         
