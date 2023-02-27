@@ -48,7 +48,10 @@
   {%- if block.settings.picker_type == 'button' -%}
     {% if option.name == 'Color' %}
       {%- for variant in product.variants -%}
-        <script>console.log({{ variant.title contains "yellow" }})</script>
+        {% if variant.title contains "yellow" %}
+          <script>console.log({{ variant.title }})</script>
+          
+        {% endif %}
         
       {% endfor %}
      
