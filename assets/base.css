@@ -3122,5 +3122,6 @@ text-align: center;
 .site-nav--has-dropdown:hover .site-nav__dropdown{ display: block !important; } 
 
 .announcement-bar.color-background-2.gradient {
-  max-width: 
+  max-width: 1400px;
+  margin: auto;
 }
