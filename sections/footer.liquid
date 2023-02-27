@@ -300,17 +300,17 @@
           <noscript>
             {%- form 'localization', id: 'FooterLanguageFormNoScript', class: 'localization-form' -%}
               <div class="localization-form__select">
-                <h2 class="visually-hidden" id="FooterLanguageLabelNoScript">faffafa {{ 'localization.language_label' | t }}</h2>
+                <h2 class="visually-hidden" id="FooterLanguageLabelNoScript">{{ 'localization.language_label' | t }}</h2>
                 <select class="localization-selector link" name="locale_code" aria-labelledby="FooterLanguageLabelNoScript">
                   {%- for language in localization.available_languages -%}
                     <option value="{{ language.iso_code }}" lang="{{ language.iso_code }}" {%- if language.iso_code == localization.language.iso_code %} selected{% endif %}>
-                      fafafafa {{ language.endonym_name | capitalize }}
+                      {{ language.endonym_name | capitalize }}
                     </option>
                   {%- endfor -%}
                 </select>
                 {% render 'icon-caret' %}
               </div>
-              <button class="button button--tertiary">fafafa {{ 'localization.update_language' | t }}</button>
+              <button class="button button--tertiary">{{ 'localization.update_language' | t }}</button>
             {%- endform -%}
           </noscript>
 
@@ -327,7 +327,7 @@
                       {%- for language in localization.available_languages -%}
                         <li class="disclosure__item" tabindex="-1">
                           <a class="link link--text disclosure__link caption-large{% if language.iso_code == localization.language.iso_code %} disclosure__link--active{% endif %} focus-inset" href="#" hreflang="{{ language.iso_code }}" lang="{{ language.iso_code }}"{% if language.iso_code == localization.language.iso_code %} aria-current="true"{% endif %} data-value="{{ language.iso_code }}">
-                            {{ language.endonym_name | capitalize }}
+                            fdasfadsfdas {{ language.endonym_name | capitalize }}
                           </a>
                         </li>
                       {%- endfor -%}
