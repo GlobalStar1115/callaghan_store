@@ -134,26 +134,28 @@
             </div>
           </div>
         {%- endif -%}
-        {%- for option in card_product.options_with_values -%}
-          {% if option.name == "Size" %}
-            {%- for value in option.values -%}
-              <script>console.log("{{ option.name}}")</script>
-              
-              <script>console.log("{{ value }}")</script>
-            {% endfor %}
-          {% endif %}
-        {%- endfor -%}
+        
         <div class="card__content">
-          <div class='product_size_bar'>
-            <div class='product_size'>39</div>
-            <div class='product_size disable'>40</div>
-            <div class='product_size active'>41</div>
-            <div class='product_size'>42</div>
-            <div class='product_size'>43</div>
-            <div class='product_size'>44</div>
-            <div class='product_size'>45</div>
-            <div class='product_size'>46</div>
-          </div>
+          {%- for option in card_product.options_with_values -%}
+            {% if option.name == "Size" %}
+              {%- for value in option.values -%}
+                <script>console.log("{{ option.name}}")</script>
+                
+                <script>console.log("{{ value }}")</script>
+                <div class='product_size_bar'>
+                  <div class='product_size'>39</div>
+                  <div class='product_size disable'>40</div>
+                  <div class='product_size active'>41</div>
+                  <div class='product_size'>42</div>
+                  <div class='product_size'>43</div>
+                  <div class='product_size'>44</div>
+                  <div class='product_size'>45</div>
+                  <div class='product_size'>46</div>
+                </div>
+              {% endfor %}
+            {% endif %}
+          {%- endfor -%}
+          
   
           <div class="card__information">
             <h3
