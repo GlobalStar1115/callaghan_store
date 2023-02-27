@@ -130,7 +130,7 @@
         "template--18049191870774__3850360f-8f16-4291-9388-2632dda1878b-16768872398744b9dd-2"
       ],
       "custom_css": [
-        "h2 {font-weight: bold; font-size: 2.8rem; line-height: 4.1rem; text-align: center; color: #5b5b5f;}"
+        "h2 {font-weight: bold; font-size: 2.8rem; line-height: 4.1rem; text-align: center; color: #5b5b5f; margin: auto;}"
       ],
       "settings": {
         "title": "Para cualquier ocasión",
