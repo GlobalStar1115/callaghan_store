@@ -104,7 +104,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        ".price-item--regular,h3, .price-item price-item--sale {font-size: 1.6rem; line-height: 2.4rem; color: #5b5b5f;}"
+        ".price-item--regular,h3, .price-item--sale {font-size: 1.6rem; line-height: 2.4rem; color: #5b5b5f;}"
       ],
       "settings": {
         "title": "",
