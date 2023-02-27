@@ -103,6 +103,9 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "custom_css": [
+        ".card__content {font-size: 1.6rem; line-height: 2.4rem; color: #5b5b5f;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
