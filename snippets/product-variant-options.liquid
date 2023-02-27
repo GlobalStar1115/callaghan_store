@@ -62,7 +62,7 @@
     {% if option.name == 'Color' %}
       {% assign flag = 0 %}
       {%- for variant in product.variants -%}
-        {% if variant.title contains value %}
+        {% if variant.title contains "Yellow" %}
           {% assign flag = 1 %}
           {% break %}
         {% endif %}
