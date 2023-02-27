@@ -135,10 +135,13 @@
           </div>
         {%- endif -%}
         {%- for option in card_product.options_with_values -%}
-          {%- for value in option.values -%}
-            <script>console.log("{{ option.name}}")</script>
-            <script>console.log("{{ value }}")</script>
-          {% endfor %}
+          {% if option.name == "Size" %}
+            {%- for value in option.values -%}
+              <script>console.log("{{ option.name}}")</script>
+              
+              <script>console.log("{{ value }}")</script>
+            {% endfor %}
+          {% endif %}
         {%- endfor -%}
         <div class="card__content">
           <div class='product_size_bar'>
