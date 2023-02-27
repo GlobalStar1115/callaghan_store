@@ -47,12 +47,8 @@
 
   {%- if block.settings.picker_type == 'button' -%}
     {% if option.name == 'Color' %}
-        {{ option | json }}
-      
-      <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-        {{ value -}}
-        <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
-      </label>
+        <script>console.log({{ option | json }})</script>
+     
     {% else %}
       <input
         type="radio"
