@@ -2,7 +2,49 @@
 {%- case layout -%}
 {%- when 'productGridItemHtml' -%}
 {%- raw -%}
+<li class="grid__item">
+  <div class="card-wrapper product-card-wrapper underline-links-hover">
+    <div class="card card--{{cardProductClass}}" style="--ratio-percent: {{imageAspectRatio}}%">
+      <div class="card__inner {{cardInnerProductClass}}" style="--ratio-percent: {{imageAspectRatio}}%">
+        {{itemImages}}
+        <div class="card__content">
+          <div class="card__information">
+            <h3 class="card__heading">
+              <a href="{{itemUrl}}" class="full-unstyled-link">
+                {{itemTitle}}
+              </a>
+            </h3>
+          </div>
+          <div class="card__badge {{cardBadgePosition}}">
+            {{itemSoldOut}}
+            {{itemSale}}
+          </div>
+        </div>
 
+      </div>
+      <div class="card__content">
+        <div class="card__information">
+          <h3 class="card__heading {{cardIsHeadingFive}}">
+            <a href="{{itemUrl}}" class="full-unstyled-link">
+              {{itemTitle}}
+            </a>
+          </h3>
+          <div class="card-information">
+            {{itemVendor}}
+            <span class="caption-large light">{{itemDescription}}</span>
+            {{itemReviews}}
+            {{itemPrice}}
+          </div>
+        </div>
+        <div class="card__badge {{cardBadgePosition}}">
+          {{itemSoldOut}}
+          {{itemSale}}
+        </div>
+      </div>
+    </div>
+
+  </div>
+</li>
 {%- endraw -%}
 
 {%- when 'soldOutLabelHtml' -%}
