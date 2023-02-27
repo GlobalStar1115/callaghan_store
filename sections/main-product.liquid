@@ -24,6 +24,10 @@
         padding-bottom: {{ section.settings.padding_bottom }}px;
       }
     }
+    .product-form__input input[type="radio"]:checked + label {
+      border: 3px solid #5b5b5f;
+      font-weight: bold;
+    }
   {%- endstyle -%}
 
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
