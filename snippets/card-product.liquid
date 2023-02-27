@@ -140,17 +140,45 @@
             {% if option.name == "Size" %}
                 <div class='product_size_bar'>
                   {% if option.values | contains "39" %}
-                    <div class='product_size'>39</div>
+                    <div class='product_size active'>39</div>
                   {% else %}
                     <div class='product_size disable'>39</div>
                   {% endif %}
+                  {% if option.values | contains "40" %}
+                    <div class='product_size'>40</div>
+                  {% else %}
                     <div class='product_size disable'>40</div>
-                  <div class='product_size active'>41</div>
-                  <div class='product_size'>42</div>
-                  <div class='product_size'>43</div>
-                  <div class='product_size'>44</div>
-                  <div class='product_size'>45</div>
-                  <div class='product_size'>46</div>
+                  {% endif %}
+                  {% if option.values | contains "41" %}
+                    <div class='product_size'>41</div>
+                  {% else %}
+                    <div class='product_size disable'>41</div>
+                  {% endif %}
+                  {% if option.values | contains "42" %}
+                    <div class='product_size'>42</div>
+                  {% else %}
+                    <div class='product_size disable'>42</div>
+                  {% endif %}
+                  {% if option.values | contains "43" %}
+                    <div class='product_size'>43</div>
+                  {% else %}
+                    <div class='product_size disable'>43</div>
+                  {% endif %}
+                  {% if option.values | contains "44" %}
+                    <div class='product_size'>44</div>
+                  {% else %}
+                    <div class='product_size disable'>44</div>
+                  {% endif %}
+                  {% if option.values | contains "45" %}
+                    <div class='product_size'>45</div>
+                  {% else %}
+                    <div class='product_size disable'>45</div>
+                  {% endif %}
+                  {% if option.values | contains "46" %}
+                    <div class='product_size'>46</div>
+                  {% else %}
+                    <div class='product_size disable'>46</div>
+                  {% endif %}
                 </div>
             {% endif %}
           {%- endfor -%}
