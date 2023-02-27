@@ -60,14 +60,14 @@
       {% endif %}
     >
     {% if option.name == 'Color' %}
+      {% assign flag = 0 %}
       {%- for variant in product.variants -%}
         {% if variant.title contains value %}
-          <script>console.log("{{ variant.title }}")</script>
-          
+          {% assign flag = 1 %}
         {% endif %}
         
       {% endfor %}
-     
+       {{ flag }}
     {% else %}
       
       <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
