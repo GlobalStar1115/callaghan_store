@@ -110,7 +110,7 @@
         data-url="{{ product.url }}"
         class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}"
       >
-        {{ product | json }}
+        <script>console.log({{ product | json }})</script>
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
         {%- for block in section.blocks -%}
