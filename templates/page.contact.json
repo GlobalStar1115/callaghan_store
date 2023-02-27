@@ -13,7 +13,8 @@
       "custom_css": [
         "h2,p {text-align: center; color: #5b5b5f;}",
         "h2 {font-weight: bold; font-size: 3rem; line-height: 4.4rem; margin-bottom: 0;}",
-        "p {font-size: 1.6rem; line-height: 2.4rem; margin-top: 0;}"
+        "p {font-size: 1.6rem; line-height: 2.4rem; margin: 0;}",
+        ".button {background: #5B5B5F;border: 0.5px solid #5B5B5F;border-radius: 5px;}"
       ],
       "settings": {
         "heading": "¿EN QUÉ PODEMOS AYUDARTE?",
