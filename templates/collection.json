@@ -11,7 +11,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
-        ".boost-pfs-filter-button.boost-pfs-filter-option-title-heading {width: 100%; padding-left: 10px; padding-right: 10px;}",
+        ".boost-pfs-filter-button.boost-pfs-filter-option-title-heading {width: 100%; padding-left: 10px; padding-right: 10px; padding-bottom: 0;}",
         ".boost-pfs-filter-option-title-text {font-weight: 400; font-size: 1.6rem; line-height: 2.4rem; color: #5b5b5f;}",
         ".boost-pfs-filter-option-content {padding-left: 10px; padding-right: 10px;}"
       ],
@@ -62,7 +62,7 @@
       "custom_css": [
         "h2 {font-weight: bold; font-size: 2.2rem; line-height: 3.3rem; text-align: center; letter-spacing: 0rem; color: #5b5b5f;}",
         "p {font-weight: 300; font-size: 1.6rem; line-height: 2.4rem; text-align: center; color: #5b5b5f; letter-spacing: 0rem;}",
-        "hr {height: 0.3px; background:rgba(91, 91, 95, 0.25);}"
+        "hr {height: 0.3px; background: rgba(91, 91, 95, 0.25);}"
       ],
       "settings": {
         "desktop_content_position": "center",
