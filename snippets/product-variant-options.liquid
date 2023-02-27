@@ -69,7 +69,9 @@
         {% endif %}
         
       {% endfor %}
-       {{ image_url }}
+      {% if flag == 1 %}
+        {{ image_url }}
+      {% endif %}
     {% else %}
       
       <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
