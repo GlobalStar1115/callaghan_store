@@ -3,6 +3,7 @@
 {%- when 'productGridItemHtml' -%}
 {%- raw -%}
 <li class="grid__item">
+  {{product | json}}
   <div class="card-wrapper product-card-wrapper underline-links-hover">
     <div class="card card--{{cardProductClass}}" style="--ratio-percent: {{imageAspectRatio}}%">
       <div class="card__inner {{cardInnerProductClass}}" style="--ratio-percent: {{imageAspectRatio}}%">
