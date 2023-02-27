@@ -141,6 +141,7 @@
                 <div class='product_size_bar'>
                   {% if option.values contains "39" %}
                     <div class='product_size active'>39</div>
+                    {% assign active_flag = 1 %}
                   {% else %}
                     <div class='product_size disable'>39</div>
                   {% endif %}
