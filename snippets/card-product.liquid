@@ -136,7 +136,8 @@
         {%- endif -%}
         {%- for option in card_product.options_with_values -%}
           {%- for value in option.values -%}
-            <script>console.log({{ option.name | json }})</script>
+            <script>console.log("{{ option.name}}")</script>
+            <script>console.log("{{ value }}")</script>
           {% endfor %}
         {%- endfor -%}
         <div class="card__content">
