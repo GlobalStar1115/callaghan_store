@@ -365,12 +365,9 @@
           <div class="footer__payment">
             <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
             <ul class="list list-payment" role="list">
-              {% assign enabled_payment_types = 'bizum,amazon,visa,google_pay,klarna,paypal' | remove: ' ' | split: ',' %}
-              {% for type in enabled_payment_types %}
-                <li class="list-payment__item">
-                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
-                </li>
-              {%- endfor -%}
+              <li class="list-payment__item">
+                <img srcset= "{{ 'phone.png' | asset_url}}" src="{{ 'phone.png' | asset_url }}">
+              </li>
             </ul>
           </div>
         {%- endif -%}
