@@ -140,8 +140,8 @@
             {% if option.name == "Size" %}
               {%- for value in option.values -%}
                 <script>console.log("{{ option.name}}")</script>
-                
-                <script>console.log({{ option.values | json }})</script>
+                {% assign json = option.values | json %}
+                <script>console.log({{ json | json }})</script>
                 <div class='product_size_bar'>
                   <div class='product_size'>39</div>
                   <div class='product_size disable'>40</div>
