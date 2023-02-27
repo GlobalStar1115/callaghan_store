@@ -319,7 +319,7 @@
               <div class="no-js-hidden">
                 <div class="disclosure">
                   <button type="button" class="disclosure__button localization-form__select localization-selector link link--text caption-large" aria-expanded="false" aria-controls="FooterLanguageList" aria-describedby="FooterLanguageLabel">
-                    fdasfadsfdas {{ localization.language.endonym_name | capitalize }}
+                    <img srcset= "{{ 'Spain.png' | asset_url}}" src="{{ 'Spain.png' | asset_url }}">{{ localization.language.endonym_name | capitalize }}
                     {% render 'icon-caret' %}
                   </button>
                   <div class="disclosure__list-wrapper" hidden>
