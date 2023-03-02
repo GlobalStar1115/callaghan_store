@@ -35,7 +35,7 @@
       {% endif %}
       {% if request.page_type == 'product' %}
       product_id: {{ product.id | default: 0 }},
-      varient_id: {{ product.variants.first.id }}
+      varient_id: {{ product.variants.first.id }},
       {% endif %}
       theme_id: {{ theme.id | default: 0 }},
       collection_tags: {{ current_tags | json }},
