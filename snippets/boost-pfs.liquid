@@ -92,7 +92,7 @@
   if (typeof boostPFSThemeConfig != 'undefined') {
     boostPFSConfig = mergeObject(boostPFSConfig, boostPFSThemeConfig);
   }
-  console.log(" {{ product.variants.first.id }}")
+  console.log({{ product | json }})
 </script>
 
 <!-- Include Resources -->
