@@ -34,6 +34,7 @@
       collection_count: {{ collection.products_count  }},
       {% endif %}
       {% if request.page_type == 'product' %}
+      product_id: {{ product.id | default: 0 }},
       {% endif %}
       theme_id: {{ theme.id | default: 0 }},
       collection_tags: {{ current_tags | json }},
@@ -90,7 +91,6 @@
   if (typeof boostPFSThemeConfig != 'undefined') {
     boostPFSConfig = mergeObject(boostPFSConfig, boostPFSThemeConfig);
   }
-  console.log({{product | json}})
 </script>
 
 <!-- Include Resources -->
