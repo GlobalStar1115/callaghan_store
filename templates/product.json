@@ -75,6 +75,9 @@
     },
     "related-products": {
       "type": "related-products",
+      "custom_css": [
+        "h2 {font-weight: 500; font-size: 2.8rem; line-height: 4.1rem; text-align: center; color: #5b5b5f;}"
+      ],
       "settings": {
         "heading": "También te gustarán",
         "heading_size": "h2",
