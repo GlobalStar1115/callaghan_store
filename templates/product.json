@@ -136,7 +136,8 @@
         "h2 {font-weight: 500; font-size: 2.8rem; line-height: 4.1rem; text-align: center; color: #5b5b5f; margin: auto;}",
         ".multicolumn.product-detail-multicolumn {max-width: 1440px; margin: auto;}",
         ".page-width {padding-left: 39px; padding-right: 39px;}",
-        ".grid {column-gap: }"
+        ".grid {column-gap: 20px;}",
+        ".grid__item {width: calc(33.33% - 20px);}"
       ],
       "settings": {
         "title": "Para cualquier ocasión",
