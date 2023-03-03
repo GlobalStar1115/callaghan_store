@@ -31,6 +31,49 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .card--standard .card__inner {
+    height: 300px;
+  }
+  .card .card__inner .card__media {
+    height: calc(100% - 50px);
+  }
+  .product_size_bar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    background: #FFFFFF;
+    border-width: 0.5px 0px;
+    border-style: solid;
+    border-color: #5B5B5F;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .product_size {
+    width: 12.5%; 
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 3.4rem;
+    color: #5B5B5F;
+  }
+  .product_size.disable {
+    text-decoration-line: line-through;
+    color: #D9D9D9;
+  }
+  .product_size.active {
+    border: 0.5px solid #5B5B5F;
+    border-radius: 5px;
+  }
+  .card--media .card__inner .card__content {
+    z-index: 9;
+  }
+  .card__content:hover .product_size_bar {
+    opacity: 1;
+  }
+  
   .mtwishlist.mt_tooltip.tooltip_pin.toolpointmted {
     position: absolute;
     top: 0;
