@@ -134,7 +134,7 @@
       ],
       "custom_css": [
         "h2 {font-weight: 500; font-size: 2.8rem; line-height: 4.1rem; text-align: center; color: #5b5b5f; margin: auto;}",
-        ".multicolumn.product-detail-multicolumn {max-width: 1440px;}"
+        ".multicolumn.product-detail-multicolumn {max-width: 1440px; margin: auto}"
       ],
       "settings": {
         "title": "Para cualquier ocasión",
