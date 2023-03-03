@@ -82,7 +82,6 @@
             name="contact[email]"
             spellcheck="false"
             autocapitalize="off"
-            value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
             aria-required="true"
             {% if form.errors contains 'email' %}
               aria-invalid="true"
