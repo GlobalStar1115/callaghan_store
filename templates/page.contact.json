@@ -12,10 +12,10 @@
       "type": "contact-form",
       "custom_css": [
         "h2,p {text-align: center; color: #5b5b5f;}",
-        "h2 {font-weight: bold; font-size: 3rem; line-height: 4.4rem; margin-bottom: 0;}",
+        "h2 {font-weight: 500; font-size: 3rem; line-height: 4.4rem; margin-bottom: 0;}",
         "p {font-size: 1.6rem; line-height: 2.4rem; margin: 0;}",
         ".button {background: #5b5b5f; border: 0.5px solid #5b5b5f; border-radius: 5px; font-size: 1.8rem; line-height: 2.7rem; color: #ffffff;}",
-        "input,textarea {border: 0.5px solid #5b5b5f; border-radius: 5px; font-size: 1.4rem;line-height: 2.1rem;color: #5B5B5F;opacity: 0.75;}"
+        "input,textarea {border: 0.5px solid #5b5b5f; border-radius: 5px; font-size: 1.4rem; line-height: 2.1rem; color: #5b5b5f; opacity: 0.75;}"
       ],
       "settings": {
         "heading": "¿EN QUÉ PODEMOS AYUDARTE?",
