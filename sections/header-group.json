@@ -21,7 +21,7 @@
         "38300313-e979-490a-b2e1-4286a6b39317"
       ],
       "custom_css": [
-
+        ".mega-menu__link {font-family: \"Oswald\"; font-style: normal; font-weight: 400; font-size: 1.4rem; line-height: 2.1rem; color: #5b5b5f;}"
       ],
       "settings": {
         "color_scheme": "background-1",
