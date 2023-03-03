@@ -56,7 +56,9 @@
       ],
       "custom_css": [
         "h2 {font-weight: 500; font-size: 3rem; line-height: 4.4rem; color: #5b5b5f; margin: 0;}",
-        "p,h3 {font-size: 16px; line-height: 24px; color: #5b5b5f;}"
+        "p,h3 {font-size: 16px; line-height: 24px; color: #5b5b5f;}",
+        "h3 {font-weight: 400;}",
+        "p {font-weight: 300;}"
       ],
       "settings": {
         "caption": "",
