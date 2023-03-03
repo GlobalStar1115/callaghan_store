@@ -166,9 +166,9 @@
         "template--18049191739702__a4164f6f-a61b-4006-9267-adc657a71675-1676651419372ab193-2"
       ],
       "custom_css": [
-        ".banner__heading {color: white; font-weight: 500; font-size: 1.8rem; line-height: 2.7rem;}",
-        ".banner__text {color: white; font-weight: 300; font-size: 1.6rem; line-height: 2.4rem;}",
-        ".button {padding: 8px 22px; border-radius: 5px; background: white; font-size: 1.6rem; font-weight: 400; line-height: 2.4rem; letter-spacing: 0em; color: #5b5b5f;}"
+        ".banner__heading {color: #ffffff; font-weight: 500; font-size: 1.8rem; line-height: 2.7rem;}",
+        ".banner__text {color: #ffffff; font-weight: 300; font-size: 1.6rem; line-height: 2.4rem;}",
+        ".button {padding: 8px 22px; border-radius: 5px; background: #ffffff; font-size: 1.6rem; font-weight: 400; line-height: 2.4rem; letter-spacing: 0em; color: #5b5b5f;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_10.png",
@@ -206,7 +206,7 @@
         "template--18049191739702__18e20c3f-353a-4a5e-acee-0d21e0ff4f87-1676624394862a7dd2-1"
       ],
       "custom_css": [
-        "h2 {font-weight: bold; font-size: 1.8rem; line-height: 2.7rem; text-align: center; color: #5b5b5f; letter-spacing: 0;}",
+        "h2 {font-weight: 500; font-size: 1.8rem; line-height: 2.7rem; text-align: center; color: #5b5b5f; letter-spacing: 0;}",
         "p {font-weight: 300; font-size: 1.8rem; line-height: 2.7rem; text-align: center; color: #5b5b5f; letter-spacing: 0;}"
       ],
       "settings": {
