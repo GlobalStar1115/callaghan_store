@@ -17,8 +17,8 @@
 }
 .newsletter--home input[type=email]::placeholder {
   font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1.6rem;
+  line-height: 2.4re,;
   color: #5B5B5F;
 }
 .newsletter--home .newsletter-form__button.field__button {
