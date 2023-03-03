@@ -1,5 +1,10 @@
 /* Color custom properties */
 
+html, body {
+  font-family: 'Oswald' !important;
+  font-style: normal !important;
+}
+
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
