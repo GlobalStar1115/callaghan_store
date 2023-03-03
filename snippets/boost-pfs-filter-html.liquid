@@ -2,7 +2,7 @@
 {%- case layout -%}
 {%- when 'productGridItemHtml' -%}
 {%- raw -%}
-  {{ products | json }}  
+  <script>console.log(products)</script>
 <li class="grid__item" style='position: relative'>
   <span class="mtwishlist" data-product="{{product_id}}" data-variant="{{product_id}}"><span class="fa fa-heart-o"></span></span>
   <div class="card-wrapper product-card-wrapper underline-links-hover">
