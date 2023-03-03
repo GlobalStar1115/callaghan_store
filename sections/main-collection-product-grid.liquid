@@ -114,7 +114,8 @@
   </div>
 </div>
 {%- endpaginate -%}
-
+{{ products | json }}
+{{ products.product | json }}
 <script>
 // Declare boostPFSThemeConfig variable
 var boostPFSThemeConfig = {
