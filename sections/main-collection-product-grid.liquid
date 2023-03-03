@@ -114,10 +114,10 @@
   </div>
 </div>
 {%- endpaginate -%}
-{{ products | json }}
-{{ products.product | json }}
 <script>
 // Declare boostPFSThemeConfig variable
+  console.log({{ products | json }})
+  console.log({{ products.product | json }})
 var boostPFSThemeConfig = {
   label: {
     sale: {{ 'products.product.on_sale' | t | default: '' | json }},
