@@ -89,7 +89,7 @@
         "template--18049191739702__fb404cbd-54c3-4a28-be8a-77aba21fff37-16766237691460c1bf-2"
       ],
       "custom_css": [
-        ".rich-text__heading {font-weight: bold; font-size: 30px; line-height: 44px; text-align: center; text-transform: uppercase; color: #5b5b5f;}",
+        ".rich-text__heading {font-weight: 500; font-size: 3rem; line-height: 4.4rem; text-align: center; text-transform: uppercase; color: #5b5b5f;}",
         ".rich-text__text {font-weight: 300; font-size: 16px; line-height: 21px; color: #5b5b5f;}"
       ],
       "settings": {
